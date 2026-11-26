@@ -1,0 +1,125 @@
+CAMPUSCARE - HOW TO RUN
+=======================
+
+One command starts everything on your own computer: the database, the
+logins, the AI service and an Android phone with the app on it.
+No account, no key and no installation is needed.
+
+
+THE COMMAND
+-----------
+
+  Mac        Open Terminal in this project folder and type:
+
+                 bash code/mac/run.sh
+
+             (Or: type  bash  and a space, drag the file code/mac/run.sh
+             into the Terminal window, press Enter.)
+
+  Windows    Open the folder code\windows and double-click run.bat.
+             Or, in Command Prompt opened in this project folder:
+
+                 code\windows\run.bat
+
+
+THE SAME COMMAND, WITH THE FOLDER'S LOCATION
+--------------------------------------------
+
+  The lines above need the window to be inside the project folder.
+  With the location in front, the command works from anywhere.
+  For a project folder kept in Downloads (type each on one line):
+
+  Mac        bash ~/Downloads/Project_Grievance_Management_System_Global/code/mac/run.sh
+
+  Windows    "%USERPROFILE%\Downloads\Project_Grievance_Management_System_Global\code\windows\run.bat"
+
+  If the folder is somewhere else, replace everything before "code"
+  with its real location and keep the quotation marks.
+
+  To get the location without typing it:
+    Mac        Right-click run.sh in Finder, hold Option, choose
+               Copy "run.sh" as Pathname. In Terminal type  bash "
+               then paste, type the closing " and press Enter.
+    Windows    Hold Shift, right-click run.bat, choose Copy as path.
+               Paste it into Command Prompt and press Enter.
+
+
+WHAT YOU NEED
+-------------
+
+  - Windows 10 or 11 (64-bit), or macOS 12 or newer
+  - 15 GB of free disk space
+  - 8 GB of RAM
+  - Internet for the first run (about 3 GB is downloaded once)
+
+
+WHAT HAPPENS
+------------
+
+  [1/5]  The tools are downloaded into code/.tools  (first run only)
+  [2/5]  The local database, login and storage services start
+  [3/5]  Demo data is loaded and the AI service starts
+  [4/5]  An Android phone opens on your screen
+  [5/5]  The CampusCare app is installed and opened
+
+  Then the window prints:   Local host is ready
+
+  First run: 10 to 30 minutes, depending on your internet speed.
+  Later runs: one to three minutes.
+
+
+LOG IN
+------
+
+  Password for every account:  password123
+
+  student@demo.com                 a student
+  admin@demo.com                   the college-wide admin
+  maintenance.admin@demo.com       a department admin (Maintenance)
+
+  All the logins are listed in guidelines/03-access/Access-Guide.pdf
+
+
+WHILE IT RUNS
+-------------
+
+  Database viewer     http://localhost:4000
+  AI service          http://localhost:8000/docs
+
+  Keep the window open while you use the app.
+
+
+TO STOP
+-------
+
+  Press Ctrl+C in the window, or close the phone window.
+  To start again, run the same command.
+
+
+IF SOMETHING GOES WRONG
+-----------------------
+
+  The download stops           Run the same command again. It continues
+                               from where it stopped.
+
+  "Another program is using    Close that program, or restart the computer,
+  a port"                      and run again.
+
+  Windows asks for permission  Click Yes, restart the PC, run again. The
+  and then for a restart       phone needs "Windows Hypervisor Platform".
+
+  The phone window is black    Stop. Then run with software graphics:
+                                 Mac:      CAMPUSCARE_GPU=swiftshader_indirect bash code/mac/run.sh
+                                 Windows:  set CAMPUSCARE_GPU=swiftshader_indirect
+                                           code\windows\run.bat
+
+  Anything else                Look in code/.tools/logs
+
+  More detail: guidelines/02-how-to-run/How-to-Run.pdf
+
+
+TO REMOVE THE DOWNLOADED TOOLS
+------------------------------
+
+  Delete the folder code/.tools (about 7 GB). The next run downloads it again.
+  On a Mac the folder is hidden: in Finder press Cmd+Shift+. to see it.

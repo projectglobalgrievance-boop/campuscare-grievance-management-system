@@ -1,0 +1,87 @@
+CAMPUSCARE - TEXT FOR LINKEDIN
+==============================
+
+Edit everything in [square brackets]. Change the wording until it sounds
+like you, and keep only the parts you worked on and can explain.
+The figures are from the project; do not change them.
+
+
+------------------------------------------------------------------------
+1. PROJECT DESCRIPTION
+   (Profile > Add profile section > Recommended > Add projects)
+------------------------------------------------------------------------
+
+Project name:
+
+CampusCare: AI-Based Student Grievance Management System
+
+Description:
+
+CampusCare is an Android app for reporting and resolving maintenance problems on a college campus, built as our B.E. major project at Global Academy of Technology.
+
+A report is a photograph taken inside the app. The app checks the phone's position against the campus boundary when the photo is taken, and the server checks it again, so a report cannot be filed from somewhere else. A machine learning model then sorts the report into one of 7 categories, a scoring model sets its priority, and it is routed to the department responsible. Staff see each report under a generated alias: the database rules prevent admin accounts from reading who submitted it.
+
+Results
+- 96.1% classification accuracy (macro F1 0.963) on 181 held-out complaints, using TF-IDF and a linear SVM trained on 904 labelled examples
+- Geofence on a 63-point campus boundary traced from OpenStreetMap
+- Complaints accepted in English, Kannada and Hindi
+- 112 automated tests across the app and the service
+
+My part: [say what you built, in one or two sentences].
+
+Built with Flutter, Firebase (Authentication, Cloud Firestore), Python, FastAPI and scikit-learn.
+
+Skills to select (up to five, only ones you can discuss):
+Flutter - Firebase - Python - Machine Learning - FastAPI - Android Development - Natural Language Processing
+
+
+------------------------------------------------------------------------
+2. POST
+------------------------------------------------------------------------
+
+Attach the poster (docs/poster) or three screenshots.
+Tag teammates and your guide where their names appear.
+
+For our final-year project we built CampusCare, an Android app that turns a campus complaint into a verified, routed and tracked report.
+
+On most campuses a broken fan or a leaking tap is reported by telling someone. Nothing is recorded, urgent problems wait behind minor ones, and students hold back because their name goes with the complaint.
+
+What we built:
+- A report is a photo taken in the app, accepted only inside the campus boundary. The position is checked on the phone and again on the server.
+- A text classifier sorts each report into one of 7 categories, and a scoring model sets its priority.
+- Each report goes to the right department, which sees it under a made-up name. The database itself blocks staff from seeing who reported.
+- Students can write in English, Kannada or Hindi, and follow the report until it is resolved.
+
+What we measured: 96.1% accuracy on 181 complaints the model had never seen, and 112 automated tests passing.
+
+I worked on [your part]. [One sentence on the hardest thing you solved, or what you learned.]
+
+Thank you to [guide's name] for guiding the project, and to my teammates [names].
+
+Built with Flutter, Firebase, Python, FastAPI and scikit-learn.
+
+#Flutter #MachineLearning #Firebase #AndroidDev #FinalYearProject
+
+
+------------------------------------------------------------------------
+3. SHORTER POST
+------------------------------------------------------------------------
+
+Our final-year project: CampusCare, an Android app for campus complaints.
+
+A complaint is a photo taken on the spot, accepted only inside the campus boundary. A machine learning model sorts it by category and urgency and sends it to the right department. Staff never see who reported it.
+
+96.1% classification accuracy on unseen complaints. Built with Flutter, Firebase, Python and scikit-learn.
+
+I worked on [your part]. Thanks to [guide's name] and my teammates [names].
+
+#Flutter #MachineLearning #FinalYearProject
+
+
+------------------------------------------------------------------------
+4. HEADLINE AND ABOUT (optional)
+------------------------------------------------------------------------
+
+A line for the "About" section of your profile:
+
+Final-year Information Science student at Global Academy of Technology. Built CampusCare, a geofenced Android complaint system with a machine learning classifier (96.1% accuracy), as a team major project. Interested in [mobile development / machine learning / backend development].

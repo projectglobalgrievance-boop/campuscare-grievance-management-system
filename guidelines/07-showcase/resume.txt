@@ -1,0 +1,79 @@
+CAMPUSCARE - TEXT FOR YOUR RESUME
+=================================
+
+Pick ONE of the entries below, the one closest to the job you are applying
+for. Keep only the points that describe work you did and can explain.
+Change the dates to the months you worked on the project.
+The figures are from the project; do not change them.
+
+
+------------------------------------------------------------------------
+GENERAL ENTRY
+------------------------------------------------------------------------
+
+CampusCare: AI-Based Student Grievance Management System        [Aug 2026 - Nov 2026]
+B.E. major project, team of four | Flutter, Firebase, Python, FastAPI, scikit-learn
+
+- Built an Android app in which a campus complaint is a geotagged photo, accepted only inside a 63-point campus boundary that is verified on the device and again on the server.
+- Trained a TF-IDF and linear SVM classifier on 904 labelled complaints to sort reports into 7 categories, reaching 96.1% accuracy (macro F1 0.963) on held-out data.
+- Routed each complaint to one of 7 departments with role-restricted dashboards, and enforced reporter anonymity in the database security rules.
+- Covered the app and the service with 112 automated tests.
+
+
+------------------------------------------------------------------------
+FOR A MOBILE / APP DEVELOPMENT ROLE
+------------------------------------------------------------------------
+
+CampusCare: Campus Complaint App (Android)                      [Aug 2026 - Nov 2026]
+B.E. major project, team of four | Flutter, Dart, Firebase Authentication, Cloud Firestore
+
+- Developed a Flutter app with separate student and staff flows: in-app camera capture, complaint tracking with a live status timeline, and department dashboards with search, filters and analytics.
+- Implemented a geofence on a 63-point campus boundary so that a report is accepted only when photographed on campus.
+- Added an offline queue that stores a complaint with its original time and position and submits it when the connection returns.
+- Supported complaint entry in English, Kannada and Hindi, including phonetic typing on an English keyboard; wrote 68 automated tests for the app.
+
+
+------------------------------------------------------------------------
+FOR A DATA / MACHINE LEARNING ROLE
+------------------------------------------------------------------------
+
+CampusCare: Complaint Classification and Prioritisation        [Aug 2026 - Nov 2026]
+B.E. major project, team of four | Python, scikit-learn, FastAPI
+
+- Trained a text classifier (TF-IDF features, linear SVM) on 904 labelled complaints across 7 categories; 96.1% accuracy and 0.963 macro F1 on 181 held-out examples.
+- Designed an explainable priority score combining category, urgency keywords, sentiment and location into four levels.
+- Extended an English-only model to Kannada and Hindi input by mapping known words to English equivalents before classification.
+- Served the pipeline as a FastAPI service with duplicate detection and automatic escalation of complaints left open for three days.
+
+
+------------------------------------------------------------------------
+FOR A BACKEND ROLE
+------------------------------------------------------------------------
+
+CampusCare: Backend for a Campus Complaint System              [Aug 2026 - Nov 2026]
+B.E. major project, team of four | Python, FastAPI, Cloud Firestore, Firebase Authentication
+
+- Built a FastAPI service that validates a complaint's location against the campus boundary, classifies it, scores its priority and routes it to one of 7 departments.
+- Wrote Firestore security rules that scope each staff account to its department and deny all staff access to user records, keeping reporters anonymous.
+- Implemented duplicate detection for complaints of the same category and zone within 24 hours, and scheduled escalation of stale complaints.
+- Wrote 44 automated tests for the service.
+
+
+------------------------------------------------------------------------
+ONE LINE, FOR A CROWDED RESUME
+------------------------------------------------------------------------
+
+CampusCare (team major project): geofenced Android complaint app with a machine learning classifier (96.1% accuracy, 7 categories) and anonymous, department-routed tracking. Flutter, Firebase, Python.
+
+
+------------------------------------------------------------------------
+SKILLS SECTION
+------------------------------------------------------------------------
+
+Add only what you used and can be questioned on.
+
+Languages:    Dart, Python
+Mobile:       Flutter, Android
+Backend:      FastAPI, Firebase Authentication, Cloud Firestore
+ML:           scikit-learn, text classification (TF-IDF, SVM)
+Tools:        Git, Android Emulator, Firebase Emulator Suite

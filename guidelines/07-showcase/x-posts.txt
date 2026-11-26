@@ -1,0 +1,33 @@
+CAMPUSCARE - TEXT FOR X
+=======================
+
+Every post below is within the 280-character limit, counted with the
+hashtags. Edit the parts in [square brackets]; if you add words, check the
+length again. Attach one image to the first post.
+
+
+------------------------------------------------------------------------
+A SINGLE POST
+------------------------------------------------------------------------
+
+Our final-year project: CampusCare, an Android app for campus complaints. A report is a photo taken on the spot, accepted only inside the campus, sorted by a machine learning model and sent to the right department. Staff never see who reported it. #Flutter #MachineLearning
+
+
+------------------------------------------------------------------------
+A THREAD OF FIVE
+------------------------------------------------------------------------
+
+1/5
+We built CampusCare for our final-year project: an Android app that turns a campus complaint into a verified, routed and tracked report. Here is how it works. #Flutter #MachineLearning
+
+2/5
+The problem: a broken fan or a leaking tap is usually reported by telling someone. Nothing is recorded, urgent problems wait behind minor ones, and students hold back because their name goes with the complaint.
+
+3/5
+A report is a photo taken inside the app. The phone's position is checked against the campus boundary, a 63-point outline traced from OpenStreetMap, on the phone and again on the server. No gallery uploads, so no reports from home.
+
+4/5
+A TF-IDF and linear SVM classifier sorts each report into 7 categories: 96.1% accuracy on complaints it had never seen. A scoring model sets the priority. Each report reaches its department under a made-up name; the database blocks staff from seeing who sent it.
+
+5/5
+Built with Flutter, Firebase, Python, FastAPI and scikit-learn, with 112 automated tests. I worked on [your part]. Thanks to [guide's name] and my teammates [names].
