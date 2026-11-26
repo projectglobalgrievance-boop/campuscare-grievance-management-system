@@ -1,0 +1,722 @@
+{
+  "version": 1,
+  "note": "Single source of truth for the in-app assistant. Edit this file to change what the bot knows; nothing is hard-coded in Dart. 'q' holds phrasings a student might use - add more phrasings to improve matching, they are matched loosely, not exactly.",
+  "fallback": "I can only help with two things: Global Academy of Technology, and how to use CampusCare. I don't know that one. Try asking about admissions, courses, hostel, library, placements, contact details - or about reporting a problem, tracking a complaint, or your privacy in the app.",
+  "suggestions": [
+    "How do I report a problem?",
+    "What courses does GAT offer?",
+    "Will the admin see my name?",
+    "How do I contact the college?",
+    "Why was my complaint rejected?",
+    "Does GAT have hostels?"
+  ],
+  "entries": [
+    {
+      "id": "gat-about",
+      "topic": "college",
+      "q": [
+        "what is gat",
+        "about the college",
+        "tell me about global academy of technology",
+        "which college is this",
+        "about gat",
+        "what does gat stand for"
+      ],
+      "a": "GAT is Global Academy of Technology, an autonomous engineering and management institute in Bengaluru, affiliated to VTU. It was established in 2001 and sits on a 10-acre solar-powered green campus at Rajarajeshwari Nagar."
+    },
+    {
+      "id": "gat-vision",
+      "topic": "college",
+      "q": [
+        "vision",
+        "mission",
+        "what is the vision of gat",
+        "college mission statement",
+        "goal of the college",
+        "motto",
+        "what is the motto",
+        "values of the institution"
+      ],
+      "a": "GAT's vision is to become a premier institution imparting quality education in engineering and management to meet the changing needs of society. Its mission is threefold: a learning environment supported by modern infrastructure, research and innovation through industry collaboration, and ethical values with environmental consciousness."
+    },
+    {
+      "id": "gat-established",
+      "topic": "college",
+      "q": [
+        "when was gat established",
+        "how old is the college",
+        "founded",
+        "established year",
+        "since when",
+        "when did the college start",
+        "when did gat start",
+        "start year"
+      ],
+      "a": "GAT was established in 2001. The campus spans over 10 acres in Rajarajeshwari Nagar, Bengaluru."
+    },
+    {
+      "id": "gat-principal",
+      "topic": "college",
+      "q": [
+        "who is the principal",
+        "principal name",
+        "head of the college",
+        "campus director",
+        "who runs gat"
+      ],
+      "a": "Dr. Balakrishna H. B. is the Principal of GAT. Dr. Annepu Sreedhar Kumar is the Campus Director."
+    },
+    {
+      "id": "gat-ug-programs",
+      "topic": "college",
+      "q": [
+        "what courses does gat offer",
+        "undergraduate programs",
+        "be branches",
+        "which branches are available",
+        "engineering courses",
+        "departments",
+        "streams offered",
+        "ug courses",
+        "seats",
+        "intake",
+        "how many seats",
+        "seat matrix"
+      ],
+      "a": "GAT offers ten B.E. branches: Computer Science and Engineering, Information Science and Engineering, Artificial Intelligence and Data Science, Artificial Intelligence and Machine Learning, CSE (AI & ML), Electronics and Communication, Electrical and Electronics, Mechanical, Civil, and Aeronautical Engineering. All are 4 years, 8 semesters."
+    },
+    {
+      "id": "gat-pg-programs",
+      "topic": "college",
+      "q": [
+        "postgraduate programs",
+        "mtech",
+        "m tech courses",
+        "mba",
+        "masters",
+        "pg courses",
+        "does gat have mba",
+        "mtech after be",
+        "can i do mtech here",
+        "higher studies after be",
+        "pg after engineering"
+      ],
+      "a": "GAT offers an MBA, M.Tech in Structural Engineering, and M.Tech in Computer Science. Postgraduate programmes run 2 years across 4 semesters."
+    },
+    {
+      "id": "gat-ug-eligibility",
+      "topic": "college",
+      "q": [
+        "eligibility for be",
+        "who can apply for engineering",
+        "ug eligibility",
+        "minimum marks for admission",
+        "qualification needed",
+        "what marks do i need"
+      ],
+      "a": "For B.E. you need 10+2 (Karnataka State Board, CBSE or equivalent) with Physics and Mathematics, plus Chemistry, Biology or Computer Science, and a minimum of 45% marks."
+    },
+    {
+      "id": "gat-pg-eligibility",
+      "topic": "college",
+      "q": [
+        "mtech eligibility",
+        "pg eligibility",
+        "eligibility for masters",
+        "requirements for mtech"
+      ],
+      "a": "For M.Tech you need a B.E. or B.Tech in a relevant field with at least 50% marks (45% for Karnataka SC/ST/OBC) and a valid PGCET or GATE score."
+    },
+    {
+      "id": "gat-entrance",
+      "topic": "college",
+      "q": [
+        "entrance exam",
+        "which exams are accepted",
+        "kcet",
+        "comedk",
+        "pgcet",
+        "how are admissions decided",
+        "cet"
+      ],
+      "a": "Undergraduate admission is through KCET for Karnataka students and COMEDK for students from outside Karnataka, or through management quota. Postgraduate admission (MBA, M.Tech) is through PGCET or GATE."
+    },
+    {
+      "id": "gat-other-states",
+      "topic": "college",
+      "q": [
+        "can students from other states apply",
+        "outside karnataka",
+        "non karnataka students",
+        "am i eligible from another state",
+        "can students from other states join",
+        "from another state",
+        "other state students",
+        "i am from andhra",
+        "from another state can i apply"
+      ],
+      "a": "Yes. Students from other states can apply through COMEDK for undergraduate courses. For postgraduate programmes, eligibility is through PGCET or management quota admissions."
+    },
+    {
+      "id": "gat-lateral",
+      "topic": "college",
+      "q": [
+        "lateral entry",
+        "diploma holders",
+        "dcet",
+        "join second year"
+      ],
+      "a": "Lateral entry is available for diploma holders in a relevant engineering discipline with at least 45% marks (40% for reserved categories), admitted through DCET as per Government of Karnataka norms."
+    },
+    {
+      "id": "gat-admission-apply",
+      "topic": "college",
+      "q": [
+        "how do i apply",
+        "admission process",
+        "how to get admission",
+        "application steps",
+        "apply to gat",
+        "documents",
+        "what documents are needed",
+        "documents required for admission",
+        "last date to apply",
+        "admission procedure",
+        "procedure for admission"
+      ],
+      "a": "Apply through KCET, COMEDK or management quota for UG, and PGCET or GATE for PG. The admissions team can walk you through documents and fees: call +91-9902463002 or +91-9243190105, or email admissions@gat.ac.in."
+    },
+    {
+      "id": "gat-fees",
+      "topic": "college",
+      "q": [
+        "fee structure",
+        "how much does it cost",
+        "tuition fees",
+        "hostel fees",
+        "what are the fees"
+      ],
+      "a": "GAT publishes the fee breakdown (tuition, hostel and other charges) as a downloadable document in the Admissions section of gat.ac.in. For exact current figures, contact admissions@gat.ac.in or call +91-9243190105 — I don't want to quote a number that may be out of date."
+    },
+    {
+      "id": "gat-scholarship",
+      "topic": "college",
+      "q": [
+        "scholarship",
+        "financial aid",
+        "fee concession",
+        "are scholarships available",
+        "fee waiver",
+        "waiver",
+        "concession",
+        "financial assistance"
+      ],
+      "a": "GAT does list scholarships among its admissions resources. For which ones you qualify for and the current criteria, contact the admissions office at admissions@gat.ac.in or +91-9243190105."
+    },
+    {
+      "id": "gat-hostel",
+      "topic": "college",
+      "q": [
+        "hostel",
+        "accommodation",
+        "does gat have hostels",
+        "boys hostel",
+        "girls hostel",
+        "where do students stay",
+        "pg accommodation",
+        "hostel facility",
+        "is there a hostel",
+        "wifi",
+        "wi fi",
+        "internet in hostel",
+        "hostel facilities"
+      ],
+      "a": "Yes, GAT provides hostel facilities for both boys and girls. The hostels have comfortable accommodation, dining facilities, Wi-Fi, security and recreational areas."
+    },
+    {
+      "id": "gat-library",
+      "topic": "college",
+      "q": [
+        "library",
+        "books",
+        "how many books",
+        "library timings",
+        "opac",
+        "reference section"
+      ],
+      "a": "The GAT Library and Information Center holds over 35,000 documents — 64,626 titles and 87,029 volumes — across two floors in the Annex B block, with a reference section seating 70. It runs LIBSOFT with barcode technology, and the OPAC catalogue can be searched from inside or outside campus. Digital resources are available 24/7."
+    },
+    {
+      "id": "gat-sports",
+      "topic": "college",
+      "q": [
+        "sports",
+        "games",
+        "athletics",
+        "playground",
+        "physical education",
+        "gym",
+        "what sports can i play",
+        "play sports"
+      ],
+      "a": "GAT ranked No. 1 in the VTU Sports Rankings 2025 and has stayed in the top 5 since 2015, with 30+ national-level athletes in 2023–24. There are indoor and outdoor facilities, coaching, athletic teams and inter-college tournaments."
+    },
+    {
+      "id": "gat-campus-life",
+      "topic": "college",
+      "q": [
+        "campus life",
+        "clubs",
+        "student clubs",
+        "ncc",
+        "nss",
+        "cultural activities",
+        "events",
+        "extracurricular",
+        "cultural fests",
+        "fests",
+        "college fest",
+        "festivals"
+      ],
+      "a": "Campus life at GAT covers sports and physical education, cultural activities, NCC, NSS, hostel life, student clubs, student well-being and regular events."
+    },
+    {
+      "id": "gat-placements",
+      "topic": "college",
+      "q": [
+        "placements",
+        "jobs",
+        "recruitment",
+        "companies",
+        "placement cell",
+        "package",
+        "career",
+        "placement",
+        "campus placement",
+        "do students get placed",
+        "hiring",
+        "highest package",
+        "salary package",
+        "average package",
+        "highest salary",
+        "placement record",
+        "placement statistics",
+        "how are the placements"
+      ],
+      "a": "Placements are run by the Career Counselling, Training and Placement (CCTP) department. The process runs from pre-placement planning and company outreach through aptitude and technical training, mock interviews and resume building, pre-placement talks, then online tests, group discussions and technical/HR interviews."
+    },
+    {
+      "id": "gat-mba-career",
+      "topic": "college",
+      "q": [
+        "career after mba",
+        "mba placements",
+        "what can i do after mba",
+        "mba prospects"
+      ],
+      "a": "An MBA from GAT opens opportunities in finance, marketing, human resources, operations and entrepreneurship. A dedicated placement cell supports students through campus placements, internships and industry tie-ups."
+    },
+    {
+      "id": "gat-contact",
+      "topic": "college",
+      "q": [
+        "contact",
+        "phone number",
+        "email",
+        "how do i contact the college",
+        "office number",
+        "reach the college",
+        "address",
+        "where is gat",
+        "location",
+        "how to reach"
+      ],
+      "a": "Global Academy of Technology, Aditya Layout, Rajarajeshwari Nagar, Bengaluru, Karnataka 560098.\nGeneral enquiries: 080-28603158 / 57\nAdmissions: +91-9902463002, +91-9243190105\nEmail: info@gat.ac.in or admissions@gat.ac.in"
+    },
+    {
+      "id": "gat-accreditation",
+      "topic": "college",
+      "q": [
+        "naac",
+        "nba",
+        "nirf",
+        "accreditation",
+        "ranking",
+        "is gat autonomous",
+        "affiliated to which university",
+        "vtu"
+      ],
+      "a": "GAT is an autonomous institute affiliated to VTU (Visvesvaraya Technological University). It holds NAAC and NBA accreditation and participates in NIRF rankings, with an IQAC overseeing internal quality."
+    },
+    {
+      "id": "gat-duration",
+      "topic": "college",
+      "q": [
+        "course duration",
+        "how many years",
+        "how long is be",
+        "semesters"
+      ],
+      "a": "B.E. programmes run 4 years across 8 semesters. Postgraduate programmes (MBA, M.Tech) run 2 years across 4 semesters."
+    },
+    {
+      "id": "app-what-is",
+      "topic": "app",
+      "q": [
+        "what is campuscare",
+        "what is this app",
+        "what does this app do",
+        "about the app",
+        "why this app"
+      ],
+      "a": "CampusCare is the campus grievance app for GAT. You photograph a problem on campus — an overflowing bin, a broken fan, a leaking tap — and it goes to the right department automatically, with AI working out the category, the priority and which team should fix it. You can then track it until it's resolved."
+    },
+    {
+      "id": "app-report",
+      "topic": "app",
+      "q": [
+        "how do i report a problem",
+        "how to submit a complaint",
+        "raise a complaint",
+        "file a grievance",
+        "report an issue",
+        "new complaint",
+        "how do i complain",
+        "report a broken fan",
+        "fan not working",
+        "broken fan",
+        "leaking tap",
+        "water leak",
+        "no water",
+        "light not working",
+        "bulb fused",
+        "dustbin overflowing",
+        "garbage not cleared",
+        "dirty toilet",
+        "wifi not working",
+        "projector not working",
+        "broken chair",
+        "broken door",
+        "ac not working",
+        "something is broken",
+        "damaged",
+        "not working",
+        "how do i tell someone about a problem",
+        "classroom is dirty",
+        "needs cleaning",
+        "someone should clean",
+        "room is dirty",
+        "bench is broken",
+        "garbage not collected",
+        "garbage is not being collected",
+        "not collected"
+      ],
+      "a": "Tap 'Report a problem' on the home screen. The camera opens, you take one photo of the issue, pick or confirm the zone, type a short description, and submit. The AI sorts out the category, priority and department — you don't fill in any forms."
+    },
+    {
+      "id": "app-photo-required",
+      "topic": "app",
+      "q": [
+        "do i need a photo",
+        "why does it need the camera",
+        "can i submit without a photo",
+        "gallery upload",
+        "picture",
+        "take the picture myself",
+        "old picture"
+      ],
+      "a": "Yes, a photo is part of every complaint, and it must be taken in the app rather than picked from your gallery. That's deliberate — it keeps reports genuine and current, and proves the problem is really there."
+    },
+    {
+      "id": "app-geofence",
+      "topic": "app",
+      "q": [
+        "outside campus",
+        "why cant i submit",
+        "geofence",
+        "location error",
+        "it says im not on campus",
+        "do i have to be on campus",
+        "gps",
+        "i am outside the college",
+        "can i report from outside",
+        "can i report from home",
+        "not on campus",
+        "outside the college can i still report"
+      ],
+      "a": "You have to be physically inside the GAT campus to submit, and the app checks your GPS against the real campus boundary. If you're off campus it will tell you so and won't accept the complaint. If you're indoors and GPS is weak, step near a window or into the open and try again."
+    },
+    {
+      "id": "app-privacy",
+      "topic": "app",
+      "q": [
+        "will the admin see my name",
+        "is it anonymous",
+        "privacy",
+        "who can see my complaint",
+        "will people know it was me",
+        "alias",
+        "identity",
+        "anonymous",
+        "confidential",
+        "will anyone find out",
+        "will anyone know i reported it",
+        "will anyone know that i reported the issue",
+        "does the admin know who reported"
+      ],
+      "a": "Your name is never shown to admins. Every complaint carries a random friendly alias instead — something like 'Crispy Llama' — and that privacy is enforced by the database rules, not just hidden in the app. Staff see the problem, the place and the alias, never who reported it."
+    },
+    {
+      "id": "app-track",
+      "topic": "app",
+      "q": [
+        "track my complaint",
+        "where is my complaint",
+        "status of my complaint",
+        "my complaints",
+        "check progress",
+        "has it been fixed",
+        "what happened to my complaint",
+        "any update",
+        "how long does it take",
+        "how long to resolve",
+        "when will it be fixed",
+        "resolution time"
+      ],
+      "a": "Open 'My Complaints' from the bottom bar. Each one shows a live status timeline — Submitted, Assigned, In Progress, Resolved — and updates as the department works on it."
+    },
+    {
+      "id": "app-statuses",
+      "topic": "app",
+      "q": [
+        "what do the statuses mean",
+        "submitted assigned in progress",
+        "what does assigned mean",
+        "status meaning"
+      ],
+      "a": "Submitted means it's received and waiting to be picked up. Assigned means a department has taken it. In Progress means someone is actively working on it. Resolved means they've marked it fixed. Rejected means it was turned down, with a reason. Cancelled means you withdrew it."
+    },
+    {
+      "id": "app-rejected",
+      "topic": "app",
+      "q": [
+        "why was my complaint rejected",
+        "rejected",
+        "they refused my complaint",
+        "complaint declined",
+        "turned down",
+        "they turned down my complaint",
+        "declined"
+      ],
+      "a": "An admin can reject a complaint, and they have to give a reason when they do — you'll see that reason on the complaint's detail screen. Common causes are duplicates of something already reported, or an issue outside the college's control."
+    },
+    {
+      "id": "app-priority",
+      "topic": "app",
+      "q": [
+        "how is priority decided",
+        "critical high medium low",
+        "who decides urgency",
+        "priority",
+        "what is urgent",
+        "how does it decide what is urgent"
+      ],
+      "a": "The AI scores each complaint as Low, Medium, High or Critical from what you describe, the category and how urgent the wording sounds. Safety issues like exposed wiring rank Critical. If several people report the same thing, the original is bumped up in priority."
+    },
+    {
+      "id": "app-edit-cancel",
+      "topic": "app",
+      "q": [
+        "can i edit my complaint",
+        "change description",
+        "cancel a complaint",
+        "delete complaint",
+        "withdraw",
+        "i made a mistake",
+        "made a mistake in my complaint",
+        "wrong details",
+        "correct my complaint"
+      ],
+      "a": "While a complaint is still 'Submitted' you can edit its description or cancel it from the complaint detail screen. Once a department has picked it up, it's locked so the record stays honest."
+    },
+    {
+      "id": "app-reopen",
+      "topic": "app",
+      "q": [
+        "it was marked resolved but isnt fixed",
+        "reopen",
+        "not actually fixed",
+        "problem came back",
+        "still broken",
+        "they closed it but its not fixed",
+        "closed without fixing",
+        "it is still broken",
+        "the issue is back again",
+        "problem is back"
+      ],
+      "a": "If something is marked Resolved but isn't really fixed, rate it 2 stars or fewer when giving feedback and you'll be able to reopen it. It goes back to the department rather than being quietly closed."
+    },
+    {
+      "id": "app-feedback",
+      "topic": "app",
+      "q": [
+        "feedback",
+        "rate",
+        "stars",
+        "how do i give feedback",
+        "rate the resolution",
+        "how do i rate",
+        "give a rating"
+      ],
+      "a": "Once a complaint is resolved you can rate the fix out of 5 stars and leave a short comment. Low ratings let you reopen the complaint, and the ratings feed the admin analytics."
+    },
+    {
+      "id": "app-limit",
+      "topic": "app",
+      "q": [
+        "how many complaints can i submit",
+        "daily limit",
+        "limit per day",
+        "too many complaints"
+      ],
+      "a": "You can submit up to 5 complaints a day. It's a spam guard, not a judgement — if you genuinely hit it, wait until tomorrow or speak to the department directly."
+    },
+    {
+      "id": "app-language",
+      "topic": "app",
+      "q": [
+        "kannada",
+        "hindi",
+        "language",
+        "can i type in kannada",
+        "regional language",
+        "type in my language"
+      ],
+      "a": "Yes. Pick ಕನ್ನಡ or हिन्दी from the small script selector above the description box and type using your normal English keyboard — it converts as you go, so 'fan kelsa madtilla' becomes ಫ್ಯಾನ್ ಕೆಲಸ ಮಾಡ್ತಿಲ್ಲ. It's phonetic, so type what you hear. You can also switch the whole app's language under Profile."
+    },
+    {
+      "id": "app-offline",
+      "topic": "app",
+      "q": [
+        "no internet",
+        "offline",
+        "poor network",
+        "will it work without internet",
+        "data",
+        "do i need internet",
+        "need internet",
+        "does it work without internet",
+        "internet required"
+      ],
+      "a": "If you're offline when you submit, the complaint is queued on your phone and sent automatically once you're back on Wi-Fi or mobile data. You don't need to redo it."
+    },
+    {
+      "id": "app-comments",
+      "topic": "app",
+      "q": [
+        "can i message the admin",
+        "reply",
+        "comments",
+        "talk to the department",
+        "ask a question about my complaint"
+      ],
+      "a": "Each complaint has a comment thread. You and the handling department can post there, so you can add detail or answer a question without filing a new complaint. Comments can't be deleted once posted."
+    },
+    {
+      "id": "app-duplicate",
+      "topic": "app",
+      "q": [
+        "duplicate",
+        "someone already reported it",
+        "same problem reported twice"
+      ],
+      "a": "The system spots complaints that look like something reported in the last 24 hours and flags them as possible duplicates. Rather than dismissing yours, it raises the priority of the original — more reports means it gets treated as more urgent."
+    },
+    {
+      "id": "app-notifications",
+      "topic": "app",
+      "q": [
+        "notifications",
+        "will i be notified",
+        "alerts",
+        "push notification",
+        "will my phone buzz",
+        "alerts on my phone",
+        "push message"
+      ],
+      "a": "Yes — if you allow notifications, you'll be told when your complaint's status changes, such as when a department assigns it or marks it resolved."
+    },
+    {
+      "id": "app-account",
+      "topic": "app",
+      "q": [
+        "sign up",
+        "create account",
+        "login",
+        "forgot password",
+        "cant log in",
+        "reset password",
+        "register"
+      ],
+      "a": "Create an account with your name, department, role (student, faculty or staff), email and a password. If you forget your password, tap 'Forgot?' on the sign-in screen and you'll get a reset link by email. You stay signed in between visits."
+    },
+    {
+      "id": "app-zones",
+      "topic": "app",
+      "q": [
+        "zones",
+        "block a block b",
+        "which zone",
+        "location of complaint",
+        "change zone",
+        "which area",
+        "area",
+        "which area do i choose",
+        "block selection"
+      ],
+      "a": "Campus is divided into zones — Block A, Block B, Block C, Library, Canteen, Hostel, Parking and Grounds. The app detects your zone from GPS and preselects it, and you can change it from the dropdown if the problem is somewhere else."
+    },
+    {
+      "id": "app-who-sees",
+      "topic": "app",
+      "q": [
+        "who handles complaints",
+        "which department",
+        "who fixes it",
+        "admin side",
+        "who actually fixes the problem",
+        "who will fix it",
+        "which department handles it",
+        "who resolves complaints"
+      ],
+      "a": "Complaints are routed to the responsible department automatically — Facilities, Maintenance, Utilities, Infrastructure, Academic Office and so on. Department admins only see the complaints that belong to them."
+    },
+    {
+      "id": "app-photo-missing",
+      "topic": "app",
+      "q": [
+        "photo not showing",
+        "my photo disappeared",
+        "no image on complaint",
+        "image missing",
+        "photo is not visible",
+        "photo not visible",
+        "cant see the photo",
+        "image not loading"
+      ],
+      "a": "Photo storage is currently switched off in this version, so complaints save without the image and show a category icon instead. The camera step still works. It's a hosting-plan limitation and can be switched back on without any app change."
+    },
+    {
+      "id": "bot-scope",
+      "topic": "app",
+      "q": [
+        "what can you do",
+        "help",
+        "who are you",
+        "what do you know",
+        "can you help me"
+      ],
+      "a": "I'm the CampusCare assistant. I answer two kinds of question: anything about Global Academy of Technology — courses, admissions, hostel, library, placements, contacts — and anything about using this app — reporting a problem, tracking it, privacy, languages. Ask me either by typing or by holding the mic."
+    }
+  ]
+}

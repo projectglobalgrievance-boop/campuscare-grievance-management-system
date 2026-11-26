@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Matches the top of the Flutter splash gradient (BrandColors.primary),
+         so the launch window hands over to the Dart UI without a white flash. -->
+    <color name="brand_splash">#2E2C71</color>
+</resources>
