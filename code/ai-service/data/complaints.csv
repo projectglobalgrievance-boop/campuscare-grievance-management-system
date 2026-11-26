@@ -1,0 +1,863 @@
+description,category
+bench broken in the CS lab of Block B,Furniture
+"fan in the CS lab of the library is not working, please fix this soon.",Electrical
+"door hinge broken in the seminar hall washroom, it has been like this for a week, very bad situation.",Furniture
+"podium drawer stuck in room 101, this is really frustrating!",Furniture
+water coooler area very dirty in Block C,Plumbing
+fan iin the physics lab of the seminar hall is not working,Electrical
+lost my calculator near the main building,Other
+"power socket sparking in lecture hall 2, it has been like this for a week, very bad situation.",Electrical
+"hostel bathroom door latch broken in A block, this is urgent and dangerous!",Hostel
+"whiteboard markers never available in room 305, it has been like this for a week, very bad situation.",Academics
+notice board outside Block B has outdated notices,Other
+notice board fallen in Block A corridor,Furniture
+"hostel corridor lights off inn C block, please fix thhis soon.",Hostel
+"AC not cooling in room 305, please fix this soon.",Electrical
+food waste spilled outside the sports complex,Cleanliness
+"garbage piled up behind Block C, please fix this soon.",Cleanliness
+library fan dusty and noisy,Electrical
+mess washbasin tap loose,Plumbing
+"podium drawer stuck in the drawing hall, this is really frustrating!",Furniture
+hostel study table lamp flickering,Electrical
+cobwebs and dust all over the main building stairs,Cleanliness
+id card machine at gate not scanning,Other
+washbasin in the sports complex is stained and dirty,Cleanliness
+dustbin near the main building is overflowing,Cleanliness
+printer in the canteen out of service,Other
+library book 'Clean Code' unavailable for reference,Academics
+cupboard dooor haging loose in room 410,Furniture
+"no water supply in the sports complex, please fix this soon.",Plumbing
+"podium drawer stuck in the drawing hall, please fix this soon.",Furniture
+"bench broken in the drawing hall of the library, please fix this soon.",Furniture
+notice board fallen in the sports complex corridor,Furniture
+cupboard door hanging loose in lecture hall 2,Furniture
+"bicycle stand full, no space near the main building, it has been like this for a week, very bad situation.",Other
+projector not turning on in lecture hall 2,Electrical
+"door hinge broken in the sports complex washroom, it has been like this for a week, very bad situation.",Furniture
+desk surface cracked in room 204,Furniture
+"bicycle stand full, no spacce near the sports complex, please fix this soon.",Other
+cobwebs and dust all over the seminar hall stairs,Cleanliness
+drain bllocked outside the mai building,Plumbing
+"lab stool missing legs in the seminar hall, it has been like this for a week, very bad situation.",Furniture
+"notice board fallen in Block C corridor, it has been like this for a week, very bad situation.",Furniture
+hostel wifi down in A block since yesterday,Hostel
+fan in room 204 of the sports complex is not working,Electrical
+wifi not working in the library affecting online classes,Academics
+the seminar hall corridor is full of litter,Cleanliness
+hostel room light not working,Hostel
+bad smell coming from washroom in the library,Cleanliness
+hot water not available in hooste A block,Hostel
+"cupboard door hanging loose in the drawing hall, kindly look into it.",Furniture
+exa hall room 101 hadd no proper seating arrangement,Academics
+campus map board faded near the canteen,Other
+library book 'DBMS by Navathe' unavailable for reference,Academics
+"water cooler in the seminar hall not dispensing water, please fix this soon.",Plumbing
+door hinge broken in the canteen washroom,Furniture
+"hostel wifi down in A block since yesterday, please fix this soon.",Hostel
+"campus map board faded near the library, this is really frustrating!",Other
+"mess plates not cleaned properly, it has been like this for a week, very bad situation.",Hostel
+liibrary fan dusty and noisy,Cleanliness
+"Block A corridor is full of litter, please fix this soon.",Cleanliness
+"lab stool missing legs in the main building, this is really frustrating!",Furniture
+"projector not turning on in room 410, kindly look into it.",Electrical
+"campus map board faded near Block B, please fix thi soon.",Other
+hostel room 144 fan making loud noise,Hostel
+washroom door not closing properly in Block A,Plumbing
+"no water supply in Block B, this is really frustrating!",Plumbing
+"room 136 window mesh torn, mosquitoes coming in, kindly look into it.",Hostel
+meess washbasin tap looose,Plumbing
+"lab equipment insufficient for ISE practicals, kindly look into it.",Academics
+campus map board faded near Block B,Other
+"class timetable clash for ECE section A, it has been like this for a week, very bad situation.",Academics
+"printer in the seminar hall out of service, this is urgent and dangerous!",Other
+washroom flushh not working in BBlock A,Plumbing
+exposed wire near the switchboard in the canteen,Electrical
+"cupboard door hanging loose in room 305, this is really frustrating!",Furniture
+"projector remote missing in room 410 affecting classes, it has been like this for a week, very bad situation.",Academics
+hostel bathroom door latch broken in A block,Hostel
+"bench broken in room 204 of the sports complex, this is really frustrating!",Furniture
+"fan in room 305 of the sports complex is not working, please fix this soon.",Electrical
+"podium drawer stuck in room 204, please fix this soon.",Furniture
+cobwebs and dust all over the seminar hall stairs,Cleanliness
+printer in Block C out of service,Other
+"washbasin in the seminar hall is stained and dirty, it has been like this for a week, very bad situation.",Cleanliness
+"the canteen corridor is full of litter, please fix this soon.",Cleanliness
+washroom in the seminar hall has no cleaning since days,Cleanliness
+washroom door not closing properly in the main building,Plumbing
+AC not cooling in the CS lab,Electrical
+"class timetable clash for ECE section B, this is really frustrating!",Academics
+water cooler in the main building not dispensing water,Plumbing
+mess food quality very bad today,Hostel
+"lab equipment insufficient for ISE practicals, kindly look into it.",Academics
+"printer in the main building out of service, please fix this soon.",Other
+mess plaes not cleaned properly,Hostel
+library book 'DBMS by Navathe' unavailable for reference,Academics
+lab equipment insufficient for ECE practicas,Academics
+"tap leaking continuously in the seminar hall washroom, this is really frustrating!",Plumbing
+"attendance not recorded properlly for CIVIL secction B, this is really frustrating!",Academics
+"washbasin in Block B is stained and dirty, please fix this soon.",Cleanliness
+attendance not recorded properly for ISE section B,Academics
+"mess plates ot cleaned properly, pleasse fix this soon.",Hostel
+bench broken in the CS lab of Block C,Furniture
+"canteen tokens system very slow, please fix this soon.",Other
+lab chairs dusty aand broke in room 410,Furniture
+hot water not available in hostel A block,Hostel
+"geyser not heating in hostel bathroom, please fix this soon.",Plumbing
+"lab stool missing legs in the canteen, this is really frustrating!",Furniture
+hostel room light not working,Electrical
+"bicycle stand full, no space near the main building",Other
+"projector not turning on in room 204, please fix this soon.",Electrical
+cupboard door hanging loose in the CS lab,Furniture
+"class timetable clash for CIVIL section C, please fix this soon.",Academics
+mess washbasin tap loose,Plumbing
+desk surface cracked in the drawing hall,Furniture
+hostel corridor lights off in A block,Hostel
+"internal marks not updated on portal for ME, please fix this soon.",Academics
+hostel corridor lights off in C block,Hostel
+"water cooler in the main building not dispensing water, this is really frustrating!",Plumbing
+library fan dusty and noisy,Cleanliness
+chair wobbling badly in room 204,Furniture
+internal marks not updated on portal for ISE,Academics
+hostel wifi down in A block since yesterday,Hostel
+"attendance not recorded properly for ECE section A, it has been like this for a week, very bad situation.",Academics
+table drawer lock broken in the canteen,Furniture
+"tube light flickering in room 204, please fix this soon.",Electrical
+"washroom in the seminar hall has no cleaning since days, please fix this soon.",Cleanliness
+"lab equipment insufficient for ECE practicals, please fix this soon.",Academics
+"lab stool missing legs in the library, please fix this soon.",Furniture
+classroom swithboard cover fllen off in the CS lab,Furniture
+spilled paint not cleaned in the main building,Cleanliness
+geyser not heating in hostel bathroom,Plumbing
+"exposed wire near the switchboard in the canteen, it has been like this for a week, very bad situation.",Electrical
+"AC not cooing in rom 101, please fix this soon.",Electrical
+"lost my calculator near Block A, please fix this soon.",Other
+"water leaking from ceiling in room 410, it has been like this for a week, very bad situation.",Plumbing
+"switch board broken in the library, please fix this soon.",Electrical
+"bicycle stand full, no space near the main building, it has been like this for a week, very bad situation.",Other
+"switch board broken in the seminar hall, please fix this soon.",Electrical
+hot water not available in hostel B block,Hostel
+water cooler in Block C not dispensing water,Plumbing
+tube light flickering in room 410,Electrical
+wifi not working in Block B affecting online classes,Academics
+"syllabus copies not distributed for ISE, please fix this soon.",Academics
+"tap leaking continuously in the library washroom, please fix this soon.",Plumbing
+"drinking water filter in the main building needs service, kindly look into it.",Plumbing
+"mess plates not cleaned properly, please fix this soon.",Hostel
+syllabus copies not distributed for CIVIL,Academics
+"bicycle stand full, no space near the main building, this is urgent and dangerous!",Other
+cupboard door hanging loose in lecture hall 2,Furniture
+"tube light flickering in the drawing hall, please fix this soon.",Electrical
+hostel study tale lamp flickering,Hostel
+"notice board outside Block B has outdated notices, this is really frustrating!",Other
+hostel room 291 fan making loud noise,Hostel
+the library corridor is full of litter,Cleanliness
+exam hall room 305 had no proper seating arrangement,Academics
+"tap leaking continuously in the sports complex washroom, please fix this soon.",Plumbing
+class timetable clash for CIVIL section A,Academics
+exam hal lecture hall 2 had nno proper seating arrangement,Academics
+"water cooler in Block C not dispensing water, kindly look into it.",Plumbing
+switch board broken in the main building,Electrical
+no power supply in the sports complex since morning,Electrical
+"cupboard door hanging loose in the drawing hall, kindly look into it.",Furniture
+"internal marks not updated on portal for CIVIL, please fix this soon.",Academics
+hostel room 333 fan making loud noise,Hostel
+"internal marks not updated on portal for CIVIL, please fix this soon.",Academics
+"pipe burst near the canteen, it has been like this for a week, very bad situation.",Plumbing
+podium drawer stuck in room 204,Furniture
+"notice board fallen in the sports complex corridor, kindy look into it.",Furniture
+notice board outside the seminar hall has outdated notices,Other
+podium drawer stuck in room 410,Furniture
+"internal marks not updated on portal for CSE, please fix thiss soon.",Academics
+tap leking continuously in Block A washroom,Plumbing
+"table drawer lock broken in the canteen, this is urgent and dangerous!",Furniture
+tap leaking continuously in the library washroom,Plumbing
+"library book 'DDBMS by Navathe' unavailable for reference, pease fix this soon.",Academics
+"no water supply in the sports complex, please fix this soon.",Plumbing
+"garbage piled up behind Block A, this is really frustrating!",Cleanliness
+"projector not turning on in room 204, please fix this soon.",Electrical
+"bicycle stand full, no space near the seminar hall",Other
+"hostel wifi down in B block since yesterday, please fix this soon.",Hostel
+"short circuit smell in th canteen, please fix this soon.",Electrical
+"no water supply in Block B, it has been lie this for a week, very bad situation.",Plumbing
+atm near campus gate not working,Other
+"tube light flickering in the drawing hall, please fix this soon.",Electrical
+internal marks not updated on portal for ISE,Academics
+projector not turning on in the drawing hall,Electrical
+"campus map board faded near Block C, please fix this soon.",Other
+library fan dusty and noisy,Electrical
+"drain blocked outside Block A, it has been like this for a week, very bad situation.",Plumbing
+"notice board outside the main building has outdated notices, please fix this soon.",Other
+"library book 'Operating System Concepts' unavailable for reference, this is urgent and dangerous!",Academics
+hot water not available in hostel A block,Hostel
+hot water not avvaillable in hostel B block,Hostel
+"switch board broken in Block C, please fix this soon.",Electrical
+hostel study table lamp flickering,Hostel
+"emergency light not working on first floor, please fix this soon.",Electrical
+parking area near Block C very congested,Other
+libraryy fan dusty andd noisy,Electrical
+exposed wire near the switchboard in Block A,Electrical
+id card machine at gate not scanning,Other
+"water leaking from ceilinng in the CS lab, please fix this soon.",Plumbing
+"hostel room 319 fan making loud noise, please fix this soon.",Hostel
+podium drawer stuck in room 204,Furniture
+"washing machine in hostel B block not working, this is really frustrating!",Hostel
+"syllabus copies not distributed for CSE, this is urgent and dangerous!",Academics
+toilet on third floor of Block B is very dirty,Cleanliness
+toilet on first floor of Block A is very dirty,Cleanliness
+internal marks not updated on portal for CSE,Academics
+washroom in the seminar hall has no cleaning since days,Cleanliness
+"lab stool missing legs in the main building, this is really frustrating!",Furniture
+"fan in the physics lab of the sports complex is not working, please fix this soon.",Electrical
+id card machine at gate not scanning,Other
+drain blocked outside the library,Plumbing
+"mess plates not cleaned properly, please fix this soon.",Hostel
+water cooler in Block B not dispensing water,Plumbing
+stray dogs roaming near the library,Other
+washbasin in the library is stained and dirty,Cleanliness
+hostel room light not working,Electrical
+"drinking water filter in the library needs service, please fix this soon.",Plumbing
+"drain blocked outside the seminar hall, kindly look into it.",Plumbing
+printer in the canteen out of service,Other
+"washroom flush not working in Block C, please x this soon.",Plumbing
+"water cooler on hostel ground floor leaking, this is urgent and dangerous!",Hostel
+"hostel corridor lights off in B block, this is really frustrating!",Hostel
+exposed wire near the switchboard in Block A,Electrical
+"bicycle stand full, no space near the main building",Other
+"canteen tokens system very slow, it has been like this for a week, very bad situation.",Other
+"cupboard door hanging loose in room 204, please fix this soon.",Furniture
+chair wobblingg badly in room 101,Furniture
+lab equipment insufficient for ISE practicals,Academics
+garbage piled up behind the sports complex,Cleanliness
+"no water supply in Block A, please fix this soon.",Plumbing
+"mess fod quality very bad todday, this is really frustrating!",Hostel
+"stray dogs roaming near Block A, please fix this soon.",Other
+hostel study table lamp flickering,Hostel
+"door hinge broken in Block B washroom, please fix this soon.",Furniture
+podium drawer stuck in room 101,Furniture
+"notice board fallen in he main bbuilding corridor, this is really frustrating!",Furniture
+the sports complex corridor is full of litter,Cleanliness
+"hostel wifi down in A block since yesteday, please fix thiis soon.",Hostel
+"stray dogs roaming near the main building, it has been like this for a week, very bad situation.",Other
+bench broken in lecture hall 2 of Block A,Furniture
+notice board fallen in the seminar hall corridor,Furniture
+hostel bathroom door latch broken in C block,Hostel
+class timetable clash for ME section C,Academics
+garbage piled p behind the lirary,Cleanliness
+"parking area near the seminar hall very congested, this is really frustrating!",Other
+"drain blocked otside Block C, this is really frustrating!",Plumbing
+"washroom flush not working in Block C, kndlyy look into it.",Plumbing
+no water supply in the sports complex,Plumbing
+"table drawer lock broken in Block C, please fix this soon.",Furniture
+"exposed wire near the switchboard in Block B, please fix this soon.",Electrical
+"washroom flush not working in the canteen, it has been like this for a week, very bad situation.",Plumbing
+"projector remote missing in room 204 affecting classes, please fix this soon.",Academics
+table drawer lock broken in Block C,Furniture
+hostel bathroom door latch broken in A block,Hostel
+library fan dusty and noisy,Cleanliness
+"id carrd machine at gate not scanning, it has been like this for a week, very bad siituation.",Other
+"projector remote missing in room 101 affecting classes, it has been likke tthis for a week, very bad situation.",Academics
+Block A corridor is full of litter,Cleanliness
+"lab equipment insufficient for CIVIL practicals, please fix this soon.",Academics
+mess lates not cleaned properly,Hostel
+washroom door not closing properly in the main building,Furniture
+washroom in the seminar hall has no cleaning since days,Cleanliness
+"Block A corridor is full of litter, this is urgent and dangerous!",Cleanliness
+lab chairs dusty and broken in the CS lab,Cleanliness
+table drawer lock broken in Block A,Furniture
+mess plates not cleaned properly,Hostel
+chair wobbling bady in the physics lab,Furniture
+wifi not working in the canteen affecting online classes,Academics
+"id card machine at gate not scanning, please fix this soon.",Other
+library fan dusty and noisy,Electrical
+"podium drawer stuck in the CS lab, it has been like this for a week, very bad situation.",Furniture
+lab equipment insufficient for CIVIL practicalls,Academics
+lirary fan dusty and noisy,Electrical
+"short circuit smell in the canteen, please fix this soon.",Electrical
+library fan dusty and noisy,Electrical
+"projector not turning on in the CS lab, this is really frustrating!",Electrical
+water cooler in Block B not dispensing water,Plumbing
+canteen tokens system very slow,Other
+"projector not turning on in the physics lab, it has been like this for a week, very bad situation.",Electrical
+window pane cracked in the CS lab,Furniture
+geyser not eatinng in hostel bathroom,Plumbing
+"hostel room 206 fan making loud noise, kindly look into it.",Hostel
+"canteen tokens system very slow, this is really frustrating!",Other
+attendance not recorded properly for CIVIL section B,Academics
+"water leaking from ceiling in room 410, it has been like this for a week, very bad situation.",Plumbing
+"hostel corridor lights off in C block, please fix this soon.",Hostel
+"syllabus copies not distributed for CIVIL, please fix this soon.",Academics
+drrinking water filter in the library needs service,Plumbing
+"projector not turning on in room 410, please fix this soon.",Electrical
+"room 268 window mesh torn, mosquitoes coming in, please fix this soon.",Hostel
+"no water supply in the canteen, please fix this soon.",Plumbing
+"water cooler on hostel second floor leaking, it has been like this for a week, very bad situation.",Hostel
+"no power supply in Block A since morning, it has been like this for a week, very bad situation.",Electrical
+spilled paint not cleaned in the main building,Cleanliness
+emergency light not working on second floor,Electrical
+geyser not heating in hostel bathroom,Plumbing
+spilled paint not cleaned in Block C,Cleanliness
+water cooler area very dirty in lock A,Cleanliness
+"attendance not recorded properly for CSE section C, this is urgent and dangerous!",Academics
+internal marks not updated on portal for CIVIL,Academics
+washroom in Block C has no cleanning since days,Cleanliness
+projector remote missing in room 101 affecting classes,Academics
+water cooler in the seminar hall not dispensing water,Plumbing
+"tube light flickering in the drawing hall, please fix this soon.",Electrical
+"spilled paint not cleaned in Block A, please fix this soon.",Cleanliness
+"stray dogs roaming near Block B, this is really frustrating!",Other
+short circuit smell in Block B,Electrical
+"drain blocked outside the sports complex, kindly look into it.",Plumbing
+water leaking from ceiling in room 204,Plumbing
+stray dogs roaming near the sports complex,Other
+"toilet on third floor of Block BB is very dirty, it has been like this for a week, very bad situation.",Cleanliness
+no power supply in Block A since morning,Electrical
+hostel wifi down in B block since yesterday,Hostel
+ost my calculator near the lbrary,Other
+no power supply in Block A since morning,Electrical
+"campus map board faded nearr the seminar hall, kindlly look into it.",Other
+exam hall the physics lab had no proper seating arrangement,Academics
+"AC not cooling in room 101, please fix this soon.",Electrical
+water cooler on hostel first floor leaking,Hostel
+"exam hall the drawing hall had no proper seating arrangement, please fix this soon.",Academics
+pipe burstt near the library,Plumbing
+"mess food quality very bad today, it has been like this for a week, very bad situation.",Hostel
+"washing machine in hostel C block not working, pleease fix this soon.",Hostel
+water ccooler aea very dirty in the main building,Cleanliness
+"washroom in the main building has no cleaning since days, this is really frustrating!",Cleanliness
+hostel room light not working,Hostel
+exposed wire near the switchboard in Bllock B,Electrical
+"AC not cooling in lecture hall 2, this is really frustrating!",Electrical
+no water supply in the canteen,Plumbing
+"emergency light not working on first floor, this is urgent and dangerous!",Electrical
+hot water not available in hostel A block,Hostel
+washroom in the seminar hall has no cleaning since days,Cleanliness
+food waste spilled outssidee the canteen,Cleanliness
+hostel room 336 fan making loud noise,Hostel
+"canteen tokens system very slow, this is urgent and dngerous!",Other
+library book 'Operating System Concepts' unavailable for reference,Academics
+"pipe burst near Block A, this is really frustrating!",Plumbing
+whiteboard markers never available in the physics lab,Academics
+"bad smell coming from washroom in Block C, kindly look into it.",Cleanliness
+cupbord door hanging loose in roomm 305,Furniture
+hostel corridor lights off in B block,Hostel
+"lost myy calculator near the library, it has been like this for a week, very bad situation.",Other
+hostel bathroom door latcchh broken in A block,Hostel
+"mess food quality very bad today, it has been like this for a week, very bad situation.",Hostel
+food waste spilled outside the sports complex,Cleanliness
+no water supply in the sports complex,Plumbing
+"hot water not available in hostel A block, it has been like this for a week, very bad situation.",Hostel
+"water leaking from ceiling in room 101, kindly look into it.",Plumbing
+"podium drawer stuck in the physsics lab, please fix this soon.",Furniture
+"id card machine at gate not scanning, it has been like this for a week, very bad siituation.",Other
+"dustbin near the library is overflowing, it has been like this for a week, very bad situation.",Cleanliness
+cupboard door hanging loose in room 305,Furniture
+"stray dgs roaming near Block C, please fix this soon.",Other
+water logging nnear the main building entrance,Plumbing
+"pipe burst near Block A, please fix this soon.",Plumbing
+projector remote missing in room 204 affecting classes,Academics
+food waste spilled outside the seminar hall,Cleanliness
+classroom switchboard cover fallen off in room 305,Electrical
+"washroom flush not working in the main building, it has been like this for a week, very bad situation.",Plumbing
+hostel corridor lights off in B block,Hostel
+"door hinge broken in Block B washroom, please fix this soon.",Furniture
+"switch board broken in Block A, this is urgent and dangerous!",Electrical
+window pane cracked in room 305,Furniture
+toilet on third floor of the seminar hall is very dirty,Cleanliness
+"emeergency light nott working on first floor, please fix this soon.",Electrical
+tap leaking continuously in the library washroom,Plumbing
+atm near camppus gate not working,Other
+washing machine in hostel C block not working,Hostel
+hostel bathroom door latch broken in A block,Hostel
+"dustbin near Block C is overflowing, please fix this soon.",Cleanliness
+water cooler on hostel first floor leaking,Hostel
+exposed wire near the switchboard in Block C,Electrical
+"wifi not working in the seminar hall affecting online classes, please fix this soon.",Academics
+geyser not heating in hostel bathroom,Plumbing
+water logggingg near Block C entrance,Plumbing
+lab stool missing legs in Block B,Furniture
+hostel wifi down in A block since yesterday,Hostel
+internal marks not updated on portal for CSE,Academics
+mess food quality very bad today,Hostel
+"bench broken in the CS lab off the semnar hall, please fix this soon.",Furniture
+cobwebs and dust all over Block B stairs,Cleanliness
+syllabus copies not distributed for ME,Academics
+podium drawer stuck in the CS lab,Furniture
+"food waste spilled outside Block C, this is really frustrating!",Cleanliness
+lab chaiis dusty and broken in room 410,Cleanliness
+"cupboard door hanging loose in room 305, tthis is really frustrating!",Furniture
+"water cooler on hostel first floor leaking, please fix this soon.",Hostel
+"water leaking from ceiling in room 101, this is urgent and dangerous!",Plumbing
+washroom door not closing properly in Block C,Plumbing
+lost my calculator near the seminar hall,Other
+"notice board fallen in the main building corridor, kindly look into it.",Furniture
+"spilled paint not cleaned in Block A, this is really frustrating!",Cleanliness
+"washbasin in the sports complex is stained and dirty, this is really frustrating!",Cleanliness
+hostel study table lamp flickering,Electrical
+cobwebs and dust all over Block A stairs,Cleanliness
+"hostel bathroom door latch broken in C block, it has been like this for a week, very bad situation.",Hostel
+library book 'DBMS by Navathe' unavailable for reference,Academics
+"exposed wire near the switchboard in the main building, it has been like this for a week, very bad situation.",Electrical
+"pipe burst near Block B, this is urgent and dangerouss!",Plumbing
+exam hall the drawing hall had no proper seating arrangement,Academics
+hostel room light not working,Electrical
+"table drwer lock broken in Block C, please fix this soon.",Furniture
+library book 'Operating System Concepts' unavailable for reference,Academics
+"bad smell coming ffrom wshroom in Block C, please fix this soon.",Cleanliness
+"tap leaking continuously in Block B washroom, kindly look into it.",Plumbing
+podium drawer stuck in room 410,Furniture
+"hostel bathroom door latch broken in B block, please fix this soon.",Hostel
+classroom switchboard cover fallen off in lecture hall 2,Electrical
+"washbasin in the seminar hall is stained and dirty, this is really frustrating!",Cleanliness
+"wifi not working in Block C affecting online classes, this is really frustrating!",Academics
+lab stool missing legs in the seminar hall,Furniture
+cobwebs and dust all over the main building stairs,Cleanliness
+desk surface crracked in room 410,Furniture
+"hostel corrior lights off in C block, this is really frustratting!",Hostel
+internal marks not updatd on portal for ME,Academics
+library book 'Clean Code' unavailable for reference,Academics
+"whiteboard markers never available in room 204, it has been like this for a wek, very bad situation.",Academics
+library book 'DBMS by Navathe' unavailable for reference,Academics
+"syllabus copies not distributed for ISE, this is really frustrating!",Academics
+"power socket sparking in room 410, please fix this soon.",Electrical
+"parking area near the seminar hall very congested, it has been like this for a week, veery bad situation.",Other
+"chaair wobbling badly in room 204, it has been like this for a week, very bad situation.",Furniture
+hot water not availale in hostel B block,Hostel
+"the main building corridor is full of litter, it has been like this for a week, very bad situation.",Cleanliness
+window pane cracked in the physics lab,Furniture
+class timetablle clash for CSE section C,Academics
+"hostel corridor lights off in B block, this is really frustrating!",Hostel
+"water cooler on hostel third floor leaking, kindly look into it.",Hostel
+"spilled paint not cleaned in the sports complex, please fix this soon.",Cleanliness
+drinking water filter in the sports complex needs service,Plumbing
+"printer in Block B out of service, please fix this soon.",Other
+hostel study table lamp flickering,Electrical
+"toilet on ground floor of the seminar hall is very dirty, this is urgent and dangerous!",Cleanliness
+"water logging near the sports complex entrance, please fix this soon.",Plumbing
+water cooler in Block A not dispensing water,Plumbing
+washbassin in Block B is stained and dirty,Cleanliness
+switch board broken in the library,Electrical
+"AC not cooling in lecture hall 2, please fix this soon.",Electrical
+"parking area near the library very congested, it has been like this for a week, very bad situation.",Other
+"room 174 window mesh torn, mosquitoes coming in",Hostel
+dustbin near Block A is overflowing,Cleanliness
+pipe burst near the sports complex,Plumbing
+"cobwebs and dust all over the canteen stairs, this is really frustrating!",Cleanliness
+water cooler on hostel third floor leaking,Hostel
+"desk surface cracked in room 305, this is really frustrating!",Furniture
+bad smell coming from washroom in the canteen,Cleanliness
+"pipe burst near the seminar hall, please fix this soon.",Plumbing
+exam hall the drawing hall had no proper seating arrangement,Academics
+dustbin near the canteen is overflowing,Cleanliness
+"cobwebs and dust all over the canteen sttairs, this is urgent and dangerous!",Cleanliness
+"water cooler on hostel third floor leaking, this is urgent and dangerous!",Hostel
+food waste spilled outside the library,Cleanliness
+mess food quality very bad today,Hostel
+AC not cooling in room 410,Electrical
+garbage piled up behind Block B,Cleanliness
+"projector not turning on in the physics lab, please fix this soon.",Electrical
+"projector remote missing in room 410 affecting classes, please fix this soon.",Academics
+chair wobbling badly in the drawing hall,Furniture
+water cooler on hostel third floor leaking,Hostel
+"hostel bathroom door latch broken in C block, please fix this soon.",Hostel
+"wifi not working in the sports complex affecting online classes, please fix this soon.",Academics
+food waste spilled outside the librarry,Cleanliness
+lab chairs dusty and broken in the drawing hall,Cleanliness
+projector not turning on in room 305,Electrical
+"garbage piled up behind the sports complex, this is urgent and dangeous!",Cleanliness
+"AC not cooling in room 410, this is urgent and dangerous!",Electrical
+"water leaking from ceiling in room 410, this is urgent and dangerous!",Plumbing
+"projector not trnning on in room 204, kindly look into it.",Electrical
+"window pane cracked in room 410, kindly look into it.",Furniture
+food waste spilled outside Block B,Cleanliness
+"bad smell coming from washroom in the seminar hall, it has been like this for a week, very bad situation.",Cleanliness
+tube light flickering in lecture hall 2,Electrical
+"stray dogs roaming near the canteen, please fix this soon.",Other
+id card machine at gate not scanning,Other
+drain blocked outside the canteen,Plumbing
+"tap leaking continuously in Block A washroom, please fix this soon.",Plumbing
+emergency light not working on third floor,Electrical
+"water cooler in the seminar hall not dispensing water, please fix this soon.",Plumbing
+"no water supply in Block C, this is urgent and dangerous!",Plumbing
+"notice board fallen in Block B corridor, please fix this soon.",Furniture
+"id card machine at gate not scanning, please ix this soon.",Other
+"spilled paint not clleaned in the library, please fix this soon.",Cleanliness
+notice board fallen in Block A corridor,Furniture
+"geyser not heating in hostel bathroom, this is urgent and dangerous!",Plumbing
+atm near campus gate not working,Other
+podium drawer stuck in room 305,Furniture
+"wifi not working in Block C affecting online classes, please fix this soon.",Academics
+"dustbin near the canteen is overflowing, kindly look into it.",Cleanliness
+"power socket sparking in room 101, please fix this soon.",Electrical
+library book 'DBMS by Navahe' unavailable for reference,Academics
+food waste spilled outside Block B,Cleanliness
+"drinking water filter in Block B needs service, this is really frustrating!",Plumbing
+short circuit smell in Block C,Electrical
+water cooler on hostel ground floor leaking,Hostel
+wifi not working in Block A affecting online classes,Academics
+spilled paint not cleaned in the canteen,Cleanliness
+syllabus copies not distributed for ECE,Academics
+"id card machine at gate not scannning, please fix this soon.",Other
+water logging near the seminar haall entrance,Plumbing
+spilled paint not cleaned in Block B,Cleanliness
+"whiteboard markers never available in the physics lab, this is urgent and dangerous!",Academics
+"tube light flickering in the physics lab, it has been likee this for a week, very bad situation.",Electrical
+syllabus copies not distributed for ME,Academics
+"class timetable clash for ME section A, this is urgent and dangerous!",Academics
+no power supply in Block A since morning,Electrical
+"AC not cooling in lecture hall 2, please fix this soon.",Electrical
+"bench broken in the CS lab of the canteen, this is really frustrating!",Furniture
+no power supply in the canteen since morning,Electrical
+"washroom flush not working in the main building, please fix this soon.",Plumbing
+"pipe burst near Block C, please fix this soon.",Plumbing
+"bicycle stand full, no space near the library",Other
+tap leaking continuously in the caanteen wwashroom,Plumbing
+notice board outside the seminar hall has outdated notices,Other
+table drawer lock broken in the seminar hall,Furniture
+bench broken in room 410 of Block C,Furniture
+"the main building corridor is full of litter, it has been like this for a week, very bad situation.",Cleanliness
+"tube light flickering in the physics lab, it has been like this for a week, very bad situation.",Electrical
+washroom door not closing properly in Block C,Plumbing
+projector not turning on in the CS lab,Electrical
+"spilled paint not cleaned in Block A, please fix this soon.",Cleanliness
+attendance not recorded properly for CSE section A,Academics
+canteen tookens system very slow,Other
+"garbage piled up behind the canteen, please fix this soon.",Cleanliness
+"room 273 window mesh torn, mosquitoes coming in",Hostel
+"parking area near the sports complex very congested, this is really frustrating!",Other
+"id card machine at gate not scanning, it has been like thhis for a week, very bad situation.",Other
+"table drawer lock broken in the canteen, this is urgent and dangerous!",Furniture
+"podium drawer stuck in the physics lab, this is urgent and dangerous!",Furniture
+"whiteboard markers never available in room 101, kindly look into it.",Academics
+water cooler in Block A not dispensing wter,Plumbing
+no power supply in Block B since morning,Electrical
+"lab equipment insufficient for ECE practicals, please fix this soon.",Academics
+hot water not available in hostel A block,Hostel
+"hostel wifi down in A block since yesterday, it has been like this for a week, very bad situation.",Hostel
+cupboard ddoor hanging loose inn the physics lab,Furniture
+library fan dusty and noisy,Electrical
+mess food quality very bad today,Hostel
+drinking water filter in Block B needs service,Plumbing
+the canteen corridor is full of litter,Cleanliness
+emergency light not working on second floor,Electrical
+"chair wobbling badly in room 101, kindly look into it.",Furniture
+parkin area near Block C vvery congested,Other
+washbasin in the library is stained and dirty,Cleanliness
+short circuiit smell in Block C,Electrical
+"syllabus copies not distributed for ECE, please fix this soon.",Academics
+cobwebs and dust all over Block B stairs,Cleanliness
+"printer in the canteen out of serice, this is really frustrating!",Other
+"bad smell coming from washroom in the seminar hall, please fix this soon.",Cleanliness
+table drawer lock broken in Block A,Furniture
+"notice board outside Block C has outdated notices, please fix this soon.",Other
+"spilled paint not cleaned in the main building, please fix this soon.",Cleanliness
+parking area near the main building very congested,Other
+"parking area near Block A very congested, please fix this soon.",Other
+"power socket sparking in room 204, it has been like this for a week, very bad situation.",Electrical
+"hot water not available in hostel B block, it has been like this for a week, very bad situation.",Hostel
+water cooler on hostel third floor leaking,Hostel
+"bicycle stand full, no space near Block C",Other
+washroom door not closing properly in the main building,Furniture
+"water cooler in the sports complex not dispensing water, please fix this soon.",Plumbing
+"hot water not available in hostel B block, this is urgent and dangerous!",Hostel
+"exposed wire near the switchboard in Block C, it has been like this for a week, very bad situation.",Electrical
+lab equipment insufficient for ISE practicalss,Academics
+lost my calculator near the canteen,Other
+printer in the main building out of service,Other
+"bicycle stand full, no space near Block B",Other
+"notice board fallen in the sports complex corridor, kindly look into it.",Furniture
+cobwebs and dust all over the sports complex stairs,Cleanliness
+water cooler on hostel second floor leaking,Hostel
+id card machine at gate not scanning,Other
+exam hall room 204 had no proper seating arrangement,Academics
+cupboard door hanging loose in room 101,Furniture
+dustbin near the main building is overflowing,Cleanliness
+"id card machine at gate not scanning, this is really frustrating!",Other
+"room 317 window mesh torn, mosquitoes coming in, please fix this soon.",Hostel
+door hige broken in the sports complex washroom,Furniture
+water leaking from ceiling in room 305,Plumbing
+"washbasin in Block C is stained and dirty, kindly look into it.",Cleanliness
+parking area near the canteen very congested,Other
+"lost my calculator near Block A, please fix this soon.",Other
+"lab stool missing legs in the canteen, plese fix this soon.",Furniture
+mess washbasin tap loose,Plumbing
+hostel study table lamp flickering,Hostel
+"water leaking from ceiling in lecture hall 2, please fi this soon.",Plumbing
+"attendance not recorded properly for ECE section B, please fix this soon.",Academics
+classroom switchboard cover fallen off in room 204,Electrical
+library book 'Operating System Concepts' unavailable for reference,Academics
+hostel study table lamp flickering,Electrical
+whiteboard markers never available in the drawing hall,Academics
+syyllabus copies not distributed for ISE,Academics
+"canteen tokens system very slow, please fix this soon.",Other
+window pane cracked in the physics lab,Furniture
+"door hinge broken in Block B washroom, this is really frustrating!",Furniture
+canteen tokens system very slow,Other
+"exposed wire near the switchboard in Block C, please fix this soon.",Electrical
+"hostel corridor lights off in C block, this is really frustrating!",Hostel
+"window pane crackeed in room 410, it has been like this for a week, very bad situaation.",Furniture
+"projector remote missing in room 101 affecting classes, it has been like this for a week, very bad situation.",Academics
+"desk surface cracked in room 101, please fix this soon.",Furniture
+attendance not recorded properly for ECE section A,Academics
+washroom flush noot working in the library,Plumbing
+mess washbasin tap looose,Hostel
+"atm near campus gate not working, this is really frustrating!",Other
+tube light flickering in room 101,Electrical
+"switch board broken in Block C, please fix this soon.",Electrical
+"washroom flush not working in th canteen, kindly look into it.",Plumbing
+"dustbin near the seminar hall is overflowing, this is really frustrating!",Cleanliness
+"no power supply in the seminar hal since mornig, it has been like this for a week, very bad situation.",Electrical
+"pipe burst near Block C, please fix this soon.",Plumbing
+campus maap board faded near the main building,Other
+hostel corridor lights off in B block,Hostel
+hostel bathroom door latch broken in A block,Hostel
+"washroom in the seminar hall has no cleaning since days, please fix this soon.",Cleanliness
+"lab equipmeent insufficient for ECE practicals, this is really frustrating!",Academics
+wifi not working in the main building affecting online classes,Academics
+library fan dusty and nooisy,Electrical
+"campus map board faded near Block B, please fix this soon.",Other
+"water leaking from ceiling in room 101, please fix this soon.",Plumbing
+hostel orridor lights off in B block,Hostel
+"AC not cooling in the physics lab, please fix this soon.",Electrical
+spilled paint not cleaned in the seminar hall,Cleanliness
+"washing machine in hostel C block not working, please fix this soon.",Hostel
+water logging near Block B entrance,Plumbing
+"bicycle stand full, no space near the sports complex, it has been like this for a week, very bad situation.",Other
+"class timetable clash for CIVIL section C, please fix this soon.",Academics
+"pipe burst near Block C, it has been like this for a week, very bad situation.",Plumbing
+"spilled paint not cleaned in the library, it has been like this for a week, very bad situation.",Cleanliness
+"lab stool missing legs in the library, it has been like this for a week, very bad situation.",Furniture
+"room 365 wwindow mesh torn, mosquitoes cominng in",Hostel
+drain blocked outside the seminar hall,Plumbing
+exposed wire near the switchboard in Block A,Electrical
+"notice board fallen in the sports complex corridor, please fix this soon.",Furniture
+canteen tokens system very slow,Other
+printer in the library out of service,Other
+"door hinge broken in Block A washroom, kindly look into it.",Furniture
+"lab equipment insufficient for CIVIL practicals, it has been like this for a week, very bad situation.",Academics
+"table drawer lock broken in the spors complex, this is urgent and dangerous!",Furniture
+"projector not turning on in room 305, kindly look into it.",Electrical
+emergency light not working on ground floor,Electrical
+mess washbasin tap loose,Hostel
+canteen tokens system very slow,Other
+food waste spillled outside tthe seminar hall,Cleanliness
+cupboard door hanging loose in room 410,Furniture
+washroom door not closing properly in the sports complex,Plumbing
+"pipe burst near the main building, please fix this soon.",Plumbing
+"mess plates not cleaned properly, it has been like this for a week, very bad situation.",Hostel
+dustbin near the library is overflowing,Cleanliness
+"bench broken in the CS lab of the canteen, please fix this soon.",Furniture
+parking area near BBlock C very congested,Other
+"washroom in the ain building has no cleaning since days, this is really frustrating!",Cleanliness
+campus map board faded near Block B,Other
+"canteen tokens system very slow, please fix this soon.",Other
+AC not cooling iin room 305,Electrical
+attendance not recorded properly for ME section B,Academics
+projector not turning on in room 305,Electrical
+"printer in Block A out of service, it has been like this for a week, very bad situation.",Other
+"drain blocked outside Block C, this is really frustrating!",Plumbing
+water leaking from ceiling in room 305,Plumbing
+"desk surface cracked in room 204, this is really frustrating!",Furniture
+tube light flickering in room 204,Electrical
+"desk surface cracked in room 101, this is urgent and dangerous!",Furniture
+table drawer lock broken in the canteen,Furniture
+"washroom flush not working in the seminar hall, please fix this soon.",Plumbing
+"dustbin near Block A is overflowing, please fix this soon.",Cleanliness
+library fan dusty and noisy,Electrical
+mess washbasin tap loose,Plumbing
+tube light flickering n room 204,Electrical
+notice board fallen in the main buildding corridor,Furniture
+exa hall room 410 had no proper seaating arrangement,Academics
+washing machine in hostel C block not working,Hostel
+library fan dusty and oisy,Electrical
+exam hall llecture hall 2 had no proer seating arrangement,Academics
+washroom in the main building has no leaning sine days,Cleanliness
+spilled paint not cleaned in the main building,Cleanliness
+"notice board outside Block B has outdated notices, please fix this soon.",Other
+"AC not cooling in the drawing hall, please fix this soon.",Electrical
+water cooler on hostel first floor leaking,Hostel
+lost my calculator near Block B,Other
+drain blocked outside the seminar hall,Plumbing
+"whiteboard markers never available in the drawing hall, please fix this soon.",Academics
+bad smell coming from washroom in the sports complex,Cleanliness
+drinking water filter in the library needs service,Plumbing
+exposed wire near the switchboard in Block C,Electrical
+"canteen tokens system very slow, this is urgent and dangerous!",Other
+tap leaking continuously in the canteen washroom,Plumbing
+"no water supply in Block , please fix this soon.",Plumbing
+tube light flickering in the CS lab,Electrical
+lab stool missing legs in the main building,Furniture
+washing machine in hostel B block not working,Hostel
+"projector remote missing in the physics lab affecting classes, it has been like this for a week, very bad situation.",Academics
+fan in the CS lab of the canteen is not working,Electrical
+projector not turning on in room 305,Electrical
+garbage piled up behind the sports complex,Cleanliness
+lab stool missing legs in the sports complex,Furniture
+"exam hall the CS lab had no proper seating arrangement, it has been like this for a week, very bad situatioon.",Academics
+stray dogs roaming near Block B,Other
+water cooler area very dirty in the canteen,Cleanliness
+"bicycle stand full, no space near the sports complex",Other
+hostel wifi down in B block since yesterday,Hostel
+water cooler on hostel first floor leaking,Hostel
+stray dogs roaming near the canteen,Other
+water cooler area very dirty in Block B,Plumbing
+campus map board faded near the seminar hall,Other
+classroo switchboard cover fallen off in the drawing hall,Electrical
+"power socket sparking in room 305, it has been like this for a week, very bad situation.",Electrical
+"washroom in Block C has no cleaning since days, it has been like this for a week, very bad situation.",Cleanliness
+"hostel wifi down in A block since yesterday, please fix this soon.",Hostel
+spilled paint not cleaned in Block A,Cleanliness
+the main building corridor is full of litter,Cleanliness
+parking area near the sports complex very congested,Other
+washroom door not closing properly in the library,Furniture
+"cupboard door hanging loose in room 410, please fix this soon.",Furniture
+"printer in the library out of service, this is urgent and dangerous!",Other
+"hot water not available in hostel B block, please fix this soon.",Hostel
+"spilled paint not cleaned in Block C, this is really frustrating!",Cleanliness
+fan in room 101 of the seminar hall is not worrking,Electrical
+"attendance not recorded properly for ISE section C, please fix this soon.",Academics
+food waste spilled outside Block A,Cleanliness
+"window pane cracked in the drawing hall, please fix this soon.",Furniture
+mess plates not cleaned properly,Hostel
+wifi not working in Block C affecting online classes,Academics
+pipe burst near the library,Plumbing
+cupboard door hanging loose in rooom 410,Furniture
+"bad smell coming from washroom in the main building, this is urgent and dangerous!",Cleanliness
+tube light flickering in room 305,Electrical
+"toilet on first floor of the canteen is very dirty, it has been like this for a week, very bad situation.",Cleanliness
+short circuit smell in the canteen,Electrical
+hostel bathroom door latch broken in B block,Hostel
+canteen tokens system very slow,Other
+cupboard door hanging loose in the physics lab,Furniture
+"switch board broken in the main building, please fix this soon.",Electrical
+"power socket sparking in room 305, this is really frustrating!",Electrical
+"no water supply in the library, it has been like this for a week, very bad situation.",Plumbing
+"spilled paint not cleaned in Block A, it has been like this for a week, very bad situation.",Cleanliness
+"washroom flush not working in the canteen, please fix this soon.",Plumbing
+"hostel bathroom door latch broken in C block, this is urgent and dangerous!",Hostel
+power socket sparking in the CS lab,Electrical
+"exam hall room 305 had no proper seating arrangement, this is really frustrating!",Academics
+hot water not avilable in hostel A lock,Hostel
+"emergency light not working on ground floor, this is really frustrating!",Electrical
+"notice board outside the main buiilding has outdated notices, this is urgent and dangerous!",Other
+"exposed wire near the switchboard in Block A, it has been like this for a week, very bad situation.",Electrical
+internal marks not updated on portal for ECE,Academics
+exposed wire near the switchboard in Block A,Electrical
+"lab equipment insufficient for ME practicals, kindly look into it.",Academics
+"bad smell coming from washroom in Block C, it has been like this for a week, very bad situation.",Cleanliness
+"wifi not working in Bloock C affecting online classes, it has been like this for a week, very bad situation.",Academics
+hostel room light not working,Hostel
+mess washbasin tap loose,Hostel
+"bench broken in the physics lab of Block C, this is really frustrating!",Furniture
+id card macine at gate not scannin,Other
+campus map board faded near the library,Other
+drain blocked outside Block A,Plumbing
+class timetable clash for ME section C,Academics
+AC not cooling in room 305,Electrical
+"chair wobbling badly in the drawing hall, it has been like this for a week, very bad situation.",Furniture
+washing machine in hostel A block not working,Hostel
+"room 242 window mesh torn, mosquitoes coming in, this iss urgent and dangerus!",Hostel
+AC not cooling n the CS lab,Electrical
+tap leaking continuously in the seminar hall washroom,Plumbing
+"bicycle stand full, no space near the canteen",Other
+water cooler area very dirty in Block A,Cleanliness
+chair wobbling bdly in room 101,Furniture
+lassroom switchboard cover fallen off in roo 305,Electrical
+attendance not recorded properly for ME section C,Academics
+"room 331 window mesh torn, mosquitoes coming in, it has been like this for a week, very bad situation.",Hostel
+"hot water not available in hostel B block, this is really frustrating!",Hostel
+water cooler on hostel ground floor leaking,Hostel
+"drain blocked outside Block C, this is really frustrating!",Plumbing
+"room 337 window mesh torn, mosquitoes coming in, this is really frustrating!",Hostel
+"door hinge broken in the seminar hall washroom, it has been like this for a week, very bad situation.",Furniture
+"notice board outside the library has outdated notices, it has been like this for a week, very bad situation.",Other
+parking area near the sports complex very congested,Other
+"campus map board faded near the main building, it has been like this for a week, very bad situation.",Other
+"washbasin in the main building is stained and dirty, ths is really frustrating!",Cleanliness
+hot water not available in hostel A block,Hostel
+hostel bathrooom door latch broken in A block,Hostel
+whiteboard markers never available in the physics lab,Academics
+washroom in th library has no cleaning since days,Cleanliness
+water leaking from ceiling in the CS lab,Plumbing
+"no power supply in the sports complex since morning, this is really frustrating!",Electrical
+no water supply in Block A,Plumbing
+"id card machine at gate not scanning, please fix this soon.",Other
+exposed wire near the switchboard in the seminar hall,Electrical
+cupboard door hanging loose in the CS lab,Furniture
+"washbasin in Block B is stained and dirty, it has been like this for a week, very bad siituation.",Cleanliness
+hostel room 286 fan making loud noise,Hostel
+the sports complex corridor is full of litter,Cleanliness
+campus map board faded near the canteen,Other
+dran blocked outside the sports complex,Plumbing
+washing machine in hostel C block not working,Hostel
+"bench broken in lecture hall 2 of the sports complex, this is urgent and dangerous!",Furniture
+water cooler area very diirty in the main building,Plumbing
+printer in Block A out of service,Other
+drain blocked outside the canteen,Plumbing
+"lab equipment insufficient for ME practicals, please fix this soon.",Academics
+"bicycle stand full, no sace near Block B, this is urgent and dangerous!",Other
+cobwebs and dust all over Block B stairs,Cleanliness
+"drinking water filter in Bllock C needs service, please fix this soon.",Plumbing
+"notice board fallen in the seminar hall corridor, this is really frustrating!",Furniture
+"hostel room 169 fan making loud noise, this is really frustrating!",Hostel
+"hostel corridor lights off in A block, kindly look into it.",Hostel
+bench broken in the drawing hall of Block C,Furniture
+hostel corridor lights off in A block,Hostel
+washbasin in the seminar hall is stained and dirty,Cleanliness
+emergency light not working on first floor,Electrical
+attendance not recorded properly for ISE section A,Academics
+"fn in the drawing hall of the libraary is not working, please fix this soon.",Electrical
+"no water supply in the seminar hall, it has been like this for a week, very bad situation.",Plumbing
+water cooler on hostel second floor leaking,Hostel
+bad smell coming from washroom in the main buildding,Cleanliness
+lirary fan dusty and noisy,Electrical
+"washroom flush not working in the canteen, kindly look into it.",Plumbing
+"fan in room 305 of the main buiilding is not working, this is really frustratin!",Electrical
+water leaking from ceiling in the CS lab,Plumbing
+no power supply in the canteen since morning,Electrical
+"hostel bathroom door ltch broken in B block, please fix this soon.",Hostel
+"ood waste spilled outside the seminar hall, this iss really frustrating!",Cleanliness
+drinking water filter in the main building needs service,Plumbing
+drinking water filter in Block C needs service,Plumbing
+whiteboard markers never available inn room 410,Academics
+the sports complex corridor is full of litter,Cleanliness
+"drinking water filter in the library needs service, it has been like this for a week, very bad situation.",Plumbing
+"short circuit smell in the sports complex, please fix this soon.",Electrical
+"emergency light not working on third floor, it has been like this for a week, very bad situation.",Electrical
+library book 'Operating System Concepts' unavailable for reference,Academics
+drain blocked outside the canteen,Plumbing
+atm near campus gate not working,Other
+geyser not heating in hotel bathroom,Plumbing
+exposed wire near the switchboard in the seminar hall,Electrical
+water logging near Block A entrannce,Plumbing
+"tap leaking continuously in the main building washroom, please fix this soon.",Plumbing
+class timetable clash for ECE section A,Academics
+"stray dogs roaming near Block C, it has been like this for a week, very bad situation.",Other
+canteen tokens system very slow,Other
+attendance not recorded properly for ISE section B,Academics
+"syllabus copies not distributed for CIVIL, please fix this soon.",Academics
+mess washbasin tap loose,Plumbing
+library fan dusty and noisy,Electrical
+"washbasin in the seminar hall is stained and dirty, it has been like this for a week, very bad situatiion.",Cleanliness
+notice board outside the seminar hall has outdated notices,Other
+"washing machine in hostel A block not working, it has been like this for a week, very bad situation.",Hostel
+"emergency light not working on first floor, please fix this soon.",Electrical
+water cooler on hostel third floor leaking,Hostel
+tube light flickering in room 305,Electrical
+washroom in the main buiding has o cleaning since days,Cleanliness
+"short circuit smell in the sports complex, this is really frustrating!",Electrical
+switch board broken in the sports complex,Electrical
+drain blocked outside lock A,Plumbing
+"hostel corridor lights off in A block, it has been like this for a week, very bad situation.",Hostel
+"cupboard door hanging loose in lecture hall 2, kindly look into it.",Furniture
+cupboard door hanging loose in the CS lab,Furniture
+library fan dusty and noisy,Cleanliness
+"hostel bathroom door latch broken in C block, this is really frustrating!",Hostel
+"podium drawer stuuck in the drawing hall, it has been like this for a week, very bad situation.",Furniture
+"wifi not working in the main building affecting online classes, it has been like this for a week, very bad situation.",Academics
+"bicycle stand full, no space near the seminar hall",Other
+"notice board fallen in the canteen corridor, this is really frustrating!",Furniture
+short circuit smell in the sports complex,Electrical
+"the seminar hall corridor is full of litter, this is urgent and dangerous!",Cleanliness
+wifi not working in the seminar hall affecting online classes,Academics
+projector remote missing in the physics lab affecting classes,Academics
+"id card machine at gate not scanning, please fix this soon.",Other
