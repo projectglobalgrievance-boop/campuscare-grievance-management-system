@@ -1,0 +1,170 @@
+rules_version = '2';
+
+// Privacy is enforced HERE, not in the UI.
+//  - Students: full access to their own data only.
+//  - Admins: can read/manage complaints, but can NEVER read the users
+//    collection (so a studentUid on a complaint cannot be resolved to a real
+//    name/email). Real-identity recovery for abuse cases is a documented
+//    super-admin path via the Admin SDK (service account), which bypasses
+//    rules and is OFF by default.
+//  - Department-scoped admins (custom claim `dept`) only see complaints
+//    routed to their department.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() { return request.auth != null; }
+    function isAdmin() {
+      // .get() keeps this false (not an evaluation error) for tokens without
+      // the claim — students hitting `||` branches would otherwise be denied.
+      return signedIn()
+        && request.auth.token.get('admin', false) == true; // custom claim set by seed/admin script
+    }
+    // Admins may carry a `dept` claim scoping them to one department.
+    // `department` is set at submit (the student's pick) and by the AI
+    // write-back; `ai.department` covers documents older than that field.
+    function adminCanSee(data) {
+      return isAdmin()
+        && (isSuperAdmin()
+            || data.get('department', '') == request.auth.token.get('dept', '')
+            || (data.ai != null
+                && data.ai.department == request.auth.token.get('dept', '')));
+    }
+    // An admin with no department scope — sees the whole college.
+    function isSuperAdmin() {
+      return isAdmin() && request.auth.token.get('dept', '') == '';
+    }
+    function isDepartment(d) {
+      return d in ['housekeeping', 'electrical_maintenance',
+                   'plumbing_maintenance', 'carpentry', 'academic_office',
+                   'hostel_office', 'general_administration'];
+    }
+    function isSelf(uid) { return signedIn() && request.auth.uid == uid; }
+    function isOwner() {
+      return signedIn() && resource.data.studentUid == request.auth.uid;
+    }
+    function onlyKeys(keys) {
+      return request.resource.data.diff(resource.data).affectedKeys()
+        .hasOnly(keys);
+    }
+
+    match /users/{uid} {
+      // Only the user themself — admins are deliberately excluded.
+      allow read, delete: if isSelf(uid);
+      // role and demoTester are server-controlled (seed/Admin SDK only):
+      // clients can never grant themselves admin or the geofence bypass.
+      allow update: if isSelf(uid)
+        && !request.resource.data.diff(resource.data).affectedKeys()
+             .hasAny(['role', 'demoTester', 'adminDept']);
+      // Any campus member can self-register as student/faculty/staff —
+      // admin can never be self-assigned.
+      allow create: if isSelf(uid)
+        && request.resource.data.role in ['student', 'faculty', 'staff']
+        && !('demoTester' in request.resource.data);
+    }
+
+    match /complaints/{complaintId} {
+      // Create: reporters only, must own the complaint, must start clean.
+      allow create: if signedIn()
+        && request.resource.data.studentUid == request.auth.uid
+        && request.resource.data.status == 'submitted'
+        && (!('department' in request.resource.data)
+            || isDepartment(request.resource.data.department));
+
+      // Read: the owner, or an admin whose dept scope covers it.
+      allow read: if adminCanSee(resource.data) || isOwner();
+
+      // Owner: finish the submit flow / edit while still 'submitted'…
+      allow update: if (isOwner()
+          && resource.data.status == 'submitted'
+          && onlyKeys(['photoUrl', 'photoUrls', 'photoCount', 'aliasName',
+                       'ai', 'description']))
+        // …cancel their own still-submitted complaint…
+        || (isOwner()
+          && resource.data.status == 'submitted'
+          && request.resource.data.status == 'cancelled'
+          && onlyKeys(['status', 'statusHistory']))
+        // …add feedback to their own resolved complaint…
+        || (isOwner()
+          && resource.data.status == 'resolved'
+          && onlyKeys(['feedback']))
+        // …or reopen a resolved complaint that didn't actually get fixed.
+        || (isOwner()
+          && resource.data.status == 'resolved'
+          && request.resource.data.status == 'submitted'
+          && onlyKeys(['status', 'statusHistory', 'escalated']))
+        // Admins manage lifecycle but can never touch identity or feedback.
+        || (adminCanSee(resource.data)
+          && !request.resource.data.diff(resource.data).affectedKeys()
+               .hasAny(['studentUid', 'feedback']));
+
+      allow delete: if false;
+
+      function parent() {
+        return get(/databases/$(database)/documents/complaints/$(complaintId)).data;
+      }
+
+      // Photo proof, stored in Firestore itself (Cloud Storage needs the paid
+      // Blaze plan). One compressed JPEG per document keeps each well under
+      // the 1 MiB document limit, and keeps the bytes out of list queries.
+      // Written once by the reporter while submitting; never edited.
+      match /photos/{photoId} {
+        allow read: if signedIn()
+          && (parent().studentUid == request.auth.uid
+              || adminCanSee(parent()));
+        // getAfter, not get: the app writes the complaint and its photos in
+        // one batch, and get() cannot see a parent created in that batch.
+        allow create: if signedIn()
+          && getAfter(/databases/$(database)/documents/complaints/$(complaintId)).data.studentUid == request.auth.uid
+          && getAfter(/databases/$(database)/documents/complaints/$(complaintId)).data.status == 'submitted'
+          && photoId in ['0', '1', '2', '3']
+          && request.resource.data.keys().hasOnly(['bytes', 'contentType'])
+          && request.resource.data.bytes is bytes
+          && request.resource.data.bytes.size() <= 900 * 1024;
+        allow update, delete: if false;
+      }
+
+      // Comment thread: owner <-> admins. Immutable once posted.
+      match /comments/{commentId} {
+        allow read: if signedIn()
+          && (parent().studentUid == request.auth.uid
+              || adminCanSee(parent()));
+        allow create: if signedIn()
+          && request.resource.data.text is string
+          && request.resource.data.text.size() > 0
+          && request.resource.data.text.size() <= 1000
+          && ((request.resource.data.byRole == 'student'
+               && parent().studentUid == request.auth.uid)
+              || (request.resource.data.byRole == 'admin'
+                  && adminCanSee(parent())));
+        allow update, delete: if false;
+      }
+    }
+
+    // "New registration" feed for the college-wide admin. Keyed by email and
+    // carrying no uid, so it cannot be joined to a complaint's studentUid —
+    // aliases stay unbroken. Department admins do not see it.
+    match /registrations/{email} {
+      allow create: if signedIn()
+        && email == request.auth.token.email
+        && request.resource.data.keys()
+             .hasOnly(['name', 'email', 'role', 'dept', 'createdAt', 'seen'])
+        && request.resource.data.email == request.auth.token.email
+        && request.resource.data.role in ['student', 'faculty', 'staff']
+        && request.resource.data.createdAt == request.time
+        && request.resource.data.seen == false;
+      allow read: if isSuperAdmin();
+      allow update: if isSuperAdmin() && onlyKeys(['seen']);
+      allow delete: if false;
+    }
+
+    match /departments/{deptId} {
+      allow read: if signedIn();
+      allow write: if isAdmin();
+    }
+
+    match /campus/{docId} {
+      allow read: if signedIn();
+      allow write: if isAdmin();
+    }
+  }
+}

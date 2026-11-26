@@ -1,0 +1,53 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "complaints",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath": "studentUid", "order": "ASCENDING"},
+        {"fieldPath": "submittedAt", "order": "DESCENDING"}
+      ]
+    },
+    {
+      "collectionGroup": "complaints",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath": "studentUid", "order": "ASCENDING"},
+        {"fieldPath": "submittedAt", "order": "ASCENDING"}
+      ]
+    },
+    {
+      "collectionGroup": "complaints",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath": "status", "order": "ASCENDING"},
+        {"fieldPath": "submittedAt", "order": "DESCENDING"}
+      ]
+    },
+    {
+      "collectionGroup": "complaints",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath": "ai.department", "order": "ASCENDING"},
+        {"fieldPath": "submittedAt", "order": "DESCENDING"}
+      ]
+    },
+    {
+      "collectionGroup": "complaints",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath": "department", "order": "ASCENDING"},
+        {"fieldPath": "submittedAt", "order": "DESCENDING"}
+      ]
+    },
+    {
+      "collectionGroup": "complaints",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath": "ai.priority", "order": "ASCENDING"},
+        {"fieldPath": "submittedAt", "order": "DESCENDING"}
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
