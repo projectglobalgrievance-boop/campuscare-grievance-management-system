@@ -114,16 +114,9 @@ When a complaint is submitted, the app sends its text and position to the AI
 service. The service runs these steps and writes the result back to the
 database, usually in under a second.
 
-```mermaid
-flowchart LR
-    S(["Student submits<br/>photo, text, position"]) --> L["1 Location<br/>re-check"]
-    L --> T["2 Kannada and Hindi<br/>to English"]
-    T --> C["3 Category"]
-    C --> P["4-5 Tone and<br/>priority"]
-    P --> D["6 Duplicate<br/>check"]
-    D --> R["7 Routing"]
-    R --> A(["8 Alias and<br/>summary"])
-```
+<p align="center">
+  <img src="docs/screenshots/pipeline.png" alt="The eight steps: location, language, category, tone, priority, duplicates, routing, alias and summary" width="100%">
+</p>
 
 | Step | What is done | How |
 |---|---|---|
@@ -138,12 +131,9 @@ flowchart LR
 
 ## How it is built
 
-```mermaid
-flowchart LR
-    A["Android app<br/>Flutter"] <-->|saves and reads| B[("Database and logins<br/>Firebase")]
-    C["AI service<br/>Python, FastAPI"] <-->|reads and writes| B
-    A -->|one request per new complaint| C
-```
+<p align="center">
+  <img src="docs/screenshots/architecture.png" alt="The Android app saves to and reads from Firebase; the AI service reads from and writes to Firebase; the app calls the AI service once per new complaint" width="100%">
+</p>
 
 | Part | Built with | Folder |
 |---|---|---|
