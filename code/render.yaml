@@ -1,0 +1,27 @@
+# Render Blueprint for the CampusCare AI service.
+#
+# Used when you host the AI service on render.com. Step-by-step instructions:
+#     guidelines/06-hosting/Hosting-and-Deployment-Guide.pdf
+#
+# This file must sit at the top of the GitHub repository you connect to
+# Render, which is the case when you publish this "code" folder as the
+# repository.
+services:
+  - type: web
+    name: campuscare-ai
+    runtime: python
+    plan: free
+    rootDir: ai-service
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+      # Render asks you for this value when the Blueprint is created:
+      # the Project ID of YOUR Firebase project.
+      - key: FIREBASE_PROJECT_ID
+        sync: false
+      # Where Render places the secret file you upload (serviceAccount.json).
+      - key: GOOGLE_APPLICATION_CREDENTIALS
+        value: /etc/secrets/serviceAccount.json
