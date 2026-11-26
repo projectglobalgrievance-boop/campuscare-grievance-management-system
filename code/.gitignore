@@ -1,0 +1,24 @@
+# Python
+ai-service/.venv/
+__pycache__/
+*.pyc
+ai-service/serviceAccount.json
+
+# Flutter/Dart (source + platform dirs are committed; artifacts are not)
+mobile/build/
+mobile/.dart_tool/
+mobile/.flutter-plugins*
+mobile/.packages
+
+# Firebase emulator state
+firebase/*-debug.log
+firebase/.firebase/
+
+# Tools downloaded by the local run
+.tools/
+
+# Your service-account key: the one real secret. Never publish it.
+keys/*.json
+
+# OS junk
+.DS_Store
